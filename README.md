@@ -12,10 +12,3 @@ Este repositório será utilizado pelo Grupo 11 para o desenvolvimento de um pro
 | Lucas de Oliveira Rodrigues | [BeatrizSants](https://github.com/BeatrizSants) |
 | Pedro Henrique Conceição de Souza | [PedroHenriqueCo](https://github.com/PedroHenriqueCo) |
 | Samuel Alessandro Lima dos Santos | [samuel-a-santos](https://github.com/samuel-a-santos) |
-
-## 🔍 Melhorias previstas:
-
-- ✅ Interface mais intuitiva e responsiva
-- ✅ Filtros e destaques para obras em atraso
-- ✅ Análises textuais e categorização de obras com IA (**DeepSeek**)
-- ✅ Reforço na acessibilidade e usabilidade
