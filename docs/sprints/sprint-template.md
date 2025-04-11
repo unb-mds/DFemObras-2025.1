@@ -9,20 +9,17 @@ Período: 00/00/2025 a 00/00/2025
 
 ## Objetivos
 
-- [ ]  Objetivo 1
-- [ ]  Objetivo 2
+- Objetivo 1
+- Objetivo 2
 
 ## Reuniões
 
 ### Reunião 1
 
-Data: 00/00/2025
-
-Local: 
-
-Inicio: 00:00
-
-Encerramento: 00:00
+**Data:** 00/00/2025  
+**Local:**  
+**Inicio:** 00:00  
+**Encerramento:** 00:00
 
 **Ata:**
 
