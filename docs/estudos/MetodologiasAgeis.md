@@ -42,7 +42,3 @@ Dentro da metodologia ágil, há diferentes **frameworks** que ajudam a estrutur
 - ⚙️ **Maior eficiência** – otimiza processos, reduz desperdícios e melhora a produtividade.
 
 ---
-
-## Links úteis para estudo
-
-- [🎥 Vídeo explicativo 1](https
