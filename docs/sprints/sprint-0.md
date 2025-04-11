@@ -28,7 +28,7 @@ Também discutimos ideias de possíveis projetos e definimos três propostas par
 | Git e GitFlow        | Samuel e Beatriz            | Documento com vídeos, links úteis e resumo explicativo           |
 | Metodologias Ágeis   | Laura e Oliveira | Documento com vídeos, links úteis e resumo explicativo                      |
 | Documentação         | Samuel | Documento com vídeos, links úteis e resumo explicativo                                |
-| Arquitetura de Software | Heloisa | Documento com vídeos, links úteis e resumo explicativo                            |
+| Arquitetura de Software | Heloisa e Pedro| Documento com vídeos, links úteis e resumo explicativo                            |
 | DevOps               | Leonardo | Documento com vídeos, links úteis e resumo explicativo                              |
 
 ---
