@@ -1,56 +1,53 @@
-# 🏁 Sprint 0  
-**Período:** 20/03/2024 a 26/03/2024  
+# **🏁** Sprint 0
+Período: 20/03/2025 a 28/03/2025
 
-## 📝 Descrição  
+## Descrição
 
-A Sprint 0 marcou o início da nossa jornada no projeto. Durante essa semana, definimos os principais pontos organizacionais do grupo. Estabelecemos os dias e formatos das reuniões e distribuímos temas de estudo entre os integrantes, com o objetivo de garantir uma base sólida para o desenvolvimento do projeto.
+ Nessa Sprint, definimos os principais pontos organizacionais do grupo, como o melhor dia e horário para reuniões e o formato de comunicação da equipe. Além disso, escolhemos três temas possíveis para o projeto e designamos responsáveis por estudar os temas básicos para desenvolvimento do projeto.
+ 
 
-Cada membro do grupo ficou responsável por um tema técnico, pesquisando conteúdos relevantes, selecionando os melhores vídeos e materiais, e criando um resumo com os principais conceitos aprendidos. Essa troca de conhecimento será essencial para nivelar a equipe e preparar todos para as próximas etapas do projeto.
+## Objetivos
 
-Também discutimos ideias de possíveis projetos e definimos três propostas para apresentar à professora, visando a escolha do tema final.
+- Criar canal de comunicação da equipe
+- Definir horário para reuniões semanais
+- Escolher três temas possíveis de projeto
+- Estudar: Git, GitHub, GitFlow, Metodologias Ágeis, Arquitetura de Software, DevOps.
+
+## Reuniões
+
+### Reunião 1
+**Data:** 28/03/2025  
+**Local:** FGA  
+**Inicio:** 10:44  
+**Encerramento:** 11:42
+
+**Ata:**
+
+- Dinâmica de apresentação entre a equipe
+- Análise dos horários individuais para definir melhor horário de reunião
+    - Ficou acordado que, idealmente, as reuniões remotas acontecerão terças e quintas às 20h, via Discord
+- Levantamento e análise das habilidades de cada membro da equipe
+
+Nessa reunião, o time definiu os membros que serão responsáveis por estudar os conceitos básicos necessários para o desenvolvimento do projeto:
+
+| Tema | Responsável |
+| --- | --- |
+| Git, GitHub e GitFlow | [Samuel](https://github.com/samuel-a-santos) e [Beatriz](https://github.com/BeatrizSants) |
+| Metodologias Ágeis | [Laura](https://github.com/laurarogelin) e [Lucas](https://github.com/LORliveira) |
+| Arquitetura de Software | [Heloisa](https://github.com/Heloisa-Santos) e [Pedro](https://github.com/PedroHenriqueCo) |
+| DevOps | [Leonardo](https://github.com/Antedeguemon21) |
+
+**Escolhas p/ tema do projeto:**
+
+1. Biometria por Voz
+2. Desenvolvimento do Aplicativo MEPA - Monitoramento da Qualidade Energética
+3. Análise de Sentimentos dos Comentários do Brasil Participativo
+
+ **Tema Final:** Obras BSB
+
+## Finalização
+
+ Todos os objetivos da Sprint 0 foram atingidos. O grupo se mostrou engajado e colaborativo, com cada integrante contribuindo com estudos e organização. Estamos prontos para avançar para as próximas etapas do projeto com uma base mais sólida e alinhada.
+ 
 
 ---
-
-## 🎯 Objetivos  
-
-- Definir os horários e formatos das reuniões semanais  
-- Dividir os temas de estudo entre os membros do grupo  
-- Estudar Git, GitHub, GitFlow, Metodologias Ágeis, Documentação, Arquitetura de Software, DevOps.
-- Selecionar três possíveis temas de projeto  
-- Produzir materiais de estudo e resumos individuais sobre os temas
-
----
-
-## 📚 Temas de Estudo  
-
-| Tema                 | Responsável         | Entregas                                                                 |
-|----------------------|---------------------|--------------------------------------------------------------------------|
-| Git e GitFlow        | Samuel e Beatriz            | Documento com vídeos, links úteis e resumo explicativo           |
-| Metodologias Ágeis   | Laura e Oliveira | Documento com vídeos, links úteis e resumo explicativo                      |
-| Documentação         | Samuel | Documento com vídeos, links úteis e resumo explicativo                                |
-| Arquitetura de Software | Heloisa e Pedro| Documento com vídeos, links úteis e resumo explicativo                            |
-| DevOps               | Leonardo | Documento com vídeos, links úteis e resumo explicativo                              |
-
----
-
-## 🧠 Tema do Projeto
-
-1. DF em obras
-
-
----
-
-## 📆 Reuniões  
-
-### 🟢 Reunião 1  
-- **Data:** 28/03/2025 
-- **Local:** FGA  
-- **Resumo:**  
-  Conversamos sobre possíveis ideias de projeto e combinamos de trazer novas sugestões até domingo. Também decidimos que todos iriam estudar Git, GitHub, GitFlow, Metodologias Ágeis, Documentação, Arquitetura de Software, DevOps.
-
----
-
-## ✅ Finalização  
-
-Todos os objetivos da Sprint 0 foram atingidos. O grupo se mostrou engajado e colaborativo, com cada integrante contribuindo com estudos e organização. Estamos prontos para avançar para as próximas etapas do projeto com uma base mais sólida e alinhada.
-
