@@ -24,7 +24,7 @@ Durante a reunião realizada em 22/04/2025, organizamos a divisão de tarefas e 
 
 | Área          | Responsáveis             |
 |---------------|---------------------------|
-| **Back-End**  | Pedro e Laura              |
+| **Back-End**  | Pedro, Laura e Heloisa     |
 | **Front-End** | Leonardo e Lucas           |
 | **DevOps**    | Samuel e Beatriz            |
 
