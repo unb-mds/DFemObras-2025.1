@@ -1,7 +1,7 @@
 # 2025-1-Squad11
 Este repositório será utilizado pelo Grupo 11 para o desenvolvimento de um projeto vinculado à disciplina de *Métodos de Desenvolvimento de Software*. O projeto **Obras BSB** tem como objetivo evoluir a aplicação desenvolvida no semestre anterior, focada na transparência e monitoramento de obras públicas no Distrito Federal.
 
-![Banner do Projeto](https://raw.githubusercontent.com/unb-mds/2025-1-Squad11/refs/heads/main/docs/img/banner.png)  
+![Banner do Projeto](https://raw.githubusercontent.com/unb-mds/2025-1-Squad11/refs/heads/main/docs/img/BannerDF.png)  
 
 ## 👥 Equipe
 
