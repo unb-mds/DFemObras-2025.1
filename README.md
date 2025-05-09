@@ -3,6 +3,8 @@ Este repositório será utilizado pelo Grupo 11 para o desenvolvimento de um pro
 
 Link do GitPages: https://unb-mds.github.io/2025-1-Squad11/
 
+Link do Figma com a prototipagem: https://www.figma.com/design/Aa7wNNOJJrA8ZDImR9JIna/MDS---DF-EM-OBRAS?node-id=0-1&p=f&t=36sj0McwB1iPrInD-0
+
 ![Banner do Projeto](https://raw.githubusercontent.com/unb-mds/2025-1-Squad11/refs/heads/main/docs/img/BannerDF.png)  
 
 ## 👥 Equipe
