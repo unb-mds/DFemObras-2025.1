@@ -1,0 +1,862 @@
+[
+  {
+    "idUnico": "21335.53-99",
+    "nome": "Reforma do Centro de Múltiplas Funções do Campus São Sebastião",
+    "cep": "71.697-040",
+    "endereco": "Área Especial 2, S/N, Bairro São Bartolomeu - São Sebastião/DF",
+    "descricao": "Reforma do prédio de múltiplas funções do campus São Sebastião que compreende uma área de 523 m². A reforma compreenderá o telhado, a troca de uma viga que foi quebrada com a queda de uma área e ajustes no piso, instalações elétricas e hidráulicas. ",
+    "funcaoSocial": "melhorar a qualidade do ensino na unidade através de laboratórios e salas ludos",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
+    "dataInicialPrevista": "2023-12-01",
+    "dataFinalPrevista": "2024-07-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "01010000003255302AA9E347C0DFD918F4C3C82FC0",
+        "dataCriacao": "2023-04-14",
+        "origem": "Manual",
+        "dataMetadado": "2023-04-14",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Instituto Federal de Brasilia",
+        "enderecoAreaExecutora": "SAUS quadra 2 BLOCO E",
+        "cepAreaExecutora": "70070-906",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.8921200065933,
+    "longitude": -47.7786
+  },
+  {
+    "idUnico": "12603.53-08",
+    "nome": "Reforma da arquibancada e pintura da pista de atletismo",
+    "cep": "70800-120",
+    "endereco": "Via L4 Norte, Lote 01, Trecho 2, SCEN  Brasília, DF",
+    "descricao": "Reforma da arquibancada e pintura da pista de atletismo",
+    "funcaoSocial": "PROFESP",
+    "metaGlobal": "Reforma da arquibancada e pintura da pista de atletismo",
+    "dataInicialPrevista": "2022-11-17",
+    "dataFinalPrevista": "2022-12-09",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2022-11-10",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Em execução",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2022-11-23",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "CAMARA DOS DEPUTADOS",
+        "codigo": 1000
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "010100000091D0967329EE47C0CCACDA923A912FC0",
+        "dataCriacao": "2022-11-10",
+        "origem": "Manual",
+        "dataMetadado": "2022-11-10",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Grupamento de Fuzileiros Navais de Brasília",
+        "enderecoAreaExecutora": "Via L4 Norte, Lote 01, Trecho 2, SCEN  Brasília, DF",
+        "cepAreaExecutora": "70800-120",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 75657.05
+      }
+    ],
+    "latitude": -15.783650006479,
+    "longitude": -47.86064
+  },
+  {
+    "idUnico": "21333.53-86",
+    "nome": "Conclusão dos mezaninos dos campi CSAM, CSSB e CTAG do IFB",
+    "cep": "70.070-906",
+    "endereco": "SAUS quadra 2 BLOCO E",
+    "descricao": "Conclusão dos mezaninos do Campus Samambaia com 427,91m², do campus São Sebastião com 539,00 m² e do Campus Taguatinga com 444,66m². Trata-se dos serviços de execução de escada, finalização dos banheiros, piso, paredes e esquadrias, além de forro, guarda-corpo e acessórios. ",
+    "funcaoSocial": "atender a comunidade acadêmica dos Campi contemplados principalmente nas áreas de laboratórios de práticas de ensino",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
+    "dataInicialPrevista": "2023-08-01",
+    "dataFinalPrevista": "2024-03-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "0101000000B83B6BB75DF047C06DC67314059A2FC0",
+        "dataCriacao": "2023-04-14",
+        "origem": "Manual",
+        "dataMetadado": "2023-04-14",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Instituto Federal de Brasilia",
+        "enderecoAreaExecutora": "SAUS quadra 2 BLOCO E",
+        "cepAreaExecutora": "70070-906",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 2500000
+      }
+    ],
+    "latitude": -15.8008200064971,
+    "longitude": -47.87786
+  },
+  {
+    "idUnico": "21339.53-04",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Brasília",
+    "cep": "70.830-450",
+    "endereco": "Via L2 Norte, SGAN 610 (610 Norte), Módulo D, E, F e G .Brasília/DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Brasília que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Brasília principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "010100000007D3307C44F047C0F5ADAD6C04822FC0",
+        "dataCriacao": "2023-04-14",
+        "origem": "Manual",
+        "dataMetadado": "2023-04-14",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Instituto Federal de Brasilia",
+        "enderecoAreaExecutora": "SAUS quadra 2 BLOCO E",
+        "cepAreaExecutora": "70070-906",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.7539400064479,
+    "longitude": -47.87709
+  },
+  {
+    "idUnico": "21341.53-30",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Gama",
+    "cep": "72.429-005",
+    "endereco": "Lote 01, DF 480, Setor de Múltiplas Atividades",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Gama que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Gama principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "01010000005036E50AEF0648C091543DCAA6FC2FC0",
+        "dataCriacao": "2023-04-14",
+        "origem": "Manual",
+        "dataMetadado": "2023-04-14",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Instituto Federal de Brasilia",
+        "enderecoAreaExecutora": "SAUS quadra 2 BLOCO E",
+        "cepAreaExecutora": "70070-906",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.9934600067011,
+    "longitude": -48.05417
+  },
+  {
+    "idUnico": "21342.53-97",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Samambaia",
+    "cep": "72.304-300",
+    "endereco": "Rodovia DF-460 - Subcentro Leste, Complexo Boca da Mata, Lote 01, Samambaia/ DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Samambaia que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Samambaia principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "0101000000E622BE13B30648C0CD62C8DAC4B92FC0",
+        "dataCriacao": "2023-04-14",
+        "origem": "Manual",
+        "dataMetadado": "2023-04-14",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Instituto Federal de Brasilia",
+        "enderecoAreaExecutora": "SAUS quadra 2 BLOCO E",
+        "cepAreaExecutora": "70070-906",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.8628300065624,
+    "longitude": -48.05234
+  },
+  {
+    "idUnico": "21345.53-56",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Taguatinga",
+    "cep": "72.146-000",
+    "endereco": "QNM 40, Área Especial 01, às margens da BR 070. Taguatinga/DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Taguatinga que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Taguatinga principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n\n",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "0101000000DAFE9595260D48C062B64376C3962FC0",
+        "dataCriacao": "2023-04-14",
+        "origem": "Manual",
+        "dataMetadado": "2023-04-14",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Instituto Federal de Brasilia",
+        "enderecoAreaExecutora": "SAUS quadra 2 BLOCO E",
+        "cepAreaExecutora": "70070-906",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.7944600064904,
+    "longitude": -48.10274
+  },
+  {
+    "idUnico": "8913.53-40",
+    "nome": "Reforma hidráulica da psicina",
+    "cep": null,
+    "endereco": null,
+    "descricao": "Reforma hidráulica da piscina para utilização pelos beneficiários do PROFESP",
+    "funcaoSocial": "Reforma hidráulica da piscina para utilização pelos beneficiários do PROFESP",
+    "metaGlobal": "Reforma hidráulica da psicina",
+    "dataInicialPrevista": "2022-10-10",
+    "dataFinalPrevista": "2022-11-04",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2022-10-03",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Em execução",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2022-10-10",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "CAMARA DOS DEPUTADOS",
+        "codigo": 1000
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 38,
+        "descricao": "Esporte",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 24,
+        "descricao": "Centro Olímpico e Para-Olímpico",
+        "idTipo": 38
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "010100000075C8CD7003EE47C0CCACDA923A912FC0",
+        "dataCriacao": "2022-10-03",
+        "origem": "Manual",
+        "dataMetadado": "2022-10-03",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "Grupamento de Fuzileiros Navais de Brasilia",
+        "enderecoAreaExecutora": "Via L4 Norte, Lote 01, Trecho 2, SCEN ",
+        "cepAreaExecutora": "70800-120",
+        "paisAreaExecutora": "Brasil"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 17500
+      }
+    ],
+    "latitude": -15.783650006479,
+    "longitude": -47.85948
+  },
+  {
+    "idUnico": "2729.53-94",
+    "nome": "Ampliação e Reforma do Hospital Naval de Brasília",
+    "cep": "1",
+    "endereco": "SEPS Q 711/911 - Asa Sul, Brasília - DF",
+    "descricao": "CONTRATAÇÃO INTEGRADA de empresa especializada em construção civil para realizar a prestação de serviços de REFORMA E AMPLIAÇÃO DO HOSPITAL NAVAL DE BRASÍLIA – HNBra, incluindo a elaboração de projetos básicos e executivos de arquitetura e engenharia, planos e programas ambientais visando a minimização dos impactos ambientais do novo hospital. O detalhamento encontra-se no RDC 01/2019 deste Hospital.",
+    "funcaoSocial": "Atendimento à Família Naval.",
+    "metaGlobal": "Expansão física das instalações e, com isso, passaremos a disponibilizar uma gama muito maior de consultas e procedimentos, inclusive aqueles com valor agregado muito alto, como no caso de internações (nos seus diversos níveis de complexidade).",
+    "dataInicialPrevista": "2020-01-20",
+    "dataFinalPrevista": "2023-03-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-06-22",
+    "especie": "Ampliação",
+    "natureza": "Obra",
+    "naturezaOutras": "",
+    "situacao": "Concluída",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2023-03-31",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "eixos": [
+      {
+        "id": 2,
+        "descricao": "Militar"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 18,
+        "descricao": "Saúde",
+        "idEixo": 2
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 47,
+        "descricao": "Instituições Hospitalares Federais",
+        "idTipo": 18
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "0101000000DF7EE1E519F547C0F64937D846A12FC0",
+        "dataCriacao": "2021-06-22",
+        "origem": "cipiws",
+        "dataMetadado": "2021-06-22",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": null,
+        "enderecoAreaExecutora": null,
+        "cepAreaExecutora": null,
+        "paisAreaExecutora": null
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 27792850.24
+      }
+    ],
+    "latitude": -15.8149936263553,
+    "longitude": -47.914852843385
+  },
+  {
+    "idUnico": "36062.53-02",
+    "nome": "Reforma do Rancho do HFAB.",
+    "cep": null,
+    "endereco": null,
+    "descricao": "Contratação de Empresa de Engenharia para reforma do Rancho do HFAB.",
+    "funcaoSocial": "Contratação de Empresa de Engenharia para reforma do Rancho do HFAB.",
+    "metaGlobal": "Reforma do Rancho do Hospital de Força Aérea de Brasília com o objetivo de garantir uma gestão alimentar de acordo com os padrões determinados pela ANVISA.",
+    "dataInicialPrevista": "2024-05-15",
+    "dataFinalPrevista": "2025-03-15",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2024-04-19",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2024-04-19",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA AERONÁUTICA",
+        "codigo": 48
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DA AERONÁUTICA",
+        "codigo": 48
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA DEFESA",
+        "codigo": 41066
+      }
+    ],
+    "eixos": [
+      {
+        "id": 1,
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 5,
+        "descricao": "Administrativo",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 5
+      }
+    ],
+    "geometrias": [
+      {
+        "geometria": "010100000097CADB114EF347C07FF059AB5BBD2FC0",
+        "dataCriacao": "2024-04-19",
+        "origem": "Manual",
+        "dataMetadado": "2024-04-19",
+        "infoAdicionais": "",
+        "datum": "SIRGAS 2000",
+        "nomeAreaExecutora": "GRUPAMENTO DE APOIO DO DISTRITO FEDERAL",
+        "enderecoAreaExecutora": "SHIS QI 05 - Area Especial 12 - Lago Sul",
+        "cepAreaExecutora": "71615-600",
+        "paisAreaExecutora": "BRASIL"
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 5249000
+      }
+    ],
+    "latitude": -15.8698400065698,
+    "longitude": -47.90082
+  }
+]
