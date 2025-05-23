@@ -1,9 +1,10 @@
 ---
 name: Solicitação de Funcionalidade
 about: Sugira uma ideia para este projeto
-title: ''
-labels: ''
+title: "[Feature Request] Breve descrição da funcionalidade"
+labels: feature request
 assignees: ''
+
 ---
 
 **Essa funcionalidade está relacionada a um problema? Por favor, descreva.**  

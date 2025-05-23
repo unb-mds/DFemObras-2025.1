@@ -1,9 +1,10 @@
 ---
 name: Relato de Bug
 about: Crie um relato para nos ajudar a melhorar
-title: ''
-labels: ''
+title: "[Bug] Breve descrição do erro"
+labels: bug
 assignees: ''
+
 ---
 
 **Descreva o bug**  
