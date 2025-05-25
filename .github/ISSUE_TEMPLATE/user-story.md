@@ -1,7 +1,7 @@
 ---
 name: User Story
 about: Descreva uma funcionalidade do ponto de vista do usuário final
-title: "[User Story] Breve descrição da história"
+title: "[US] Breve descrição da história"
 labels: backlog, user story
 assignees: ''
 
