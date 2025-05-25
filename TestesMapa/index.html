@@ -57,21 +57,40 @@
       </div>
   </div>
   
+  <div class="filters-container">
+    <div class="filter-controls">
+        <div class="filter-group">
+            <h3>Filtrar por Situação:</h3>
+            <label>
+                <input type="checkbox" id="concluidas" checked> Concluídas  <span class="pin concluida"></span>
+            </label>
+            <label>
+                <input type="checkbox" id="em-execucao" checked> Em Execução <span class="pin andamento"></span>
+            </label>
+            <label>
+                <input type="checkbox" id="inativadas" checked> Inativadas <span class="pin planejada"></span>
+            </label>
+        </div>
 
-    <div class="legend">
-        <div class="legend-item">
-          <span class="pin andamento"></span> Obras em andamento
+        <div class="filter-group">
+            <h3>Ordenar:</h3>
+            <select id="ordenacao">
+                <option value="valor">Maior valor</option>
+                <option value="nome">Nome (A-Z)</option>
+            </select>
         </div>
-        <div class="legend-item">
-          <span class="pin concluida"></span> Obras concluídas
+
+        <div class="filter-group">
+            <h3>Buscar Obra:</h3>
+            <input type="text" id="search-input" placeholder="Digite o nome da obra...">
         </div>
-        <div class="legend-item">
-          <span class="pin planejada"></span> Obras inativadas
-        </div>
-      </div>
+    </div>
+</div>
+
       
     <!-- Script personalizado -->
     <script src="js/map.js"></script>
     <script>console.log("Usando CDN")</script>
 </body>
 </html>
+
