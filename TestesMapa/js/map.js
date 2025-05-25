@@ -1,6 +1,13 @@
 // Inicializar o mapa 
 let mapa;
 
+let allMarkers = [];
+let layerGroups = {
+    concluida: L.layerGroup(),
+    emExecucao: L.layerGroup(),
+    inativada: L.layerGroup()
+};
+
 function inicializaMapa() {
     // Definir os limites do DF
     const bounds = L.latLngBounds(
@@ -133,30 +140,51 @@ function obterIconeDoMarcador(situacao, icones) {
 function processarDadosDasObras(dados, mapa) {
     const icones = criarIconesDosPins();
     
+    // Limpar marcadores existentes
+    allMarkers = [];
+    Object.values(layerGroups).forEach(group => group.clearLayers());
+
+    // Ordenar dados
+    dados.sort((a, b) => {
+        const valorA = a.fontesDeRecurso?.[0]?.valorInvestimentoPrevisto || 0;
+        const valorB = b.fontesDeRecurso?.[0]?.valorInvestimentoPrevisto || 0;
+        return valorB - valorA;
+    });
+
     dados.forEach((obra, indice) => {
-        const { nome, fontesDeRecurso, latitude, longitude, situacao} = obra;
+        const { nome, fontesDeRecurso, latitude, longitude, situacao } = obra;
         
-        // Validação de coordenadas
-        if (!latitude || !longitude) {
-            console.log(`Obra ${indice}: "${nome}" ignorada por falta de coordenadas.`);
-            return;
-        }
+        if (!latitude || !longitude) return;
 
-        // Seleção de ícone
         const iconeMarcador = obterIconeDoMarcador(situacao, icones);
-        if (!iconeMarcador) {
-            console.warn(`Situação desconhecida: ${situacao} na obra ${nome}`);
-            return;
-        }
+        if (!iconeMarcador) return;
 
-        // Criação do marcador
         const marcador = criarMarcador(latitude, longitude, iconeMarcador, mapa);
-        
-        // Configuração do popup
         const valor = fontesDeRecurso?.[0]?.valorInvestimentoPrevisto || 0;
         const conteudoPopup = gerarConteudoDoPopup(nome, situacao, formatarBRL(valor), indice);
+        
         marcador.bindPopup(conteudoPopup);
+        marcador.obraData = obra; // Armazenar dados completos
+
+        // Adicionar aos grupos
+        switch(situacao) {
+            case 'Concluída':
+                layerGroups.concluida.addLayer(marcador);
+                break;
+            case 'Em execução':
+                layerGroups.emExecucao.addLayer(marcador);
+                break;
+            case 'Inativada':
+                layerGroups.inativada.addLayer(marcador);
+                break;
+        }
+
+        allMarkers.push(marcador);
     });
+
+    // Adicionar grupos ao mapa
+    Object.values(layerGroups).forEach(group => group.addTo(mapa));
+    atualizarFiltros();
 }
 
 // Função principal modificada
@@ -181,7 +209,53 @@ if (typeof module !== 'undefined' && module.exports) {
         processarDadosDasObras
     };
 }
+function atualizarFiltros() {
+    // Atualizar visibilidade por situação
+    const situacoes = {
+        concluida: document.getElementById('concluidas').checked,
+        emExecucao: document.getElementById('em-execucao').checked,
+        inativada: document.getElementById('inativadas').checked
+    };
 
+    Object.entries(layerGroups).forEach(([key, group]) => {
+        situacoes[key] ? group.addTo(mapa) : group.remove();
+    });
+
+    // Atualizar ordenação
+    const ordenacao = document.getElementById('ordenacao').value;
+    allMarkers.sort((a, b) => {
+        if (ordenacao === 'valor') {
+            return (b.obraData.fontesDeRecurso?.[0]?.valorInvestimentoPrevisto || 0) - 
+                   (a.obraData.fontesDeRecurso?.[0]?.valorInvestimentoPrevisto || 0);
+        } else {
+            return a.obraData.nome.localeCompare(b.obraData.nome);
+        }
+    });
+
+    // Reordenar marcadores (para z-index)
+    allMarkers.forEach((marker, index) => {
+        marker.setZIndexOffset(10000 - index);
+    });
+}
+
+// Implementar busca
+document.getElementById('search-input').addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    
+    allMarkers.forEach(marker => {
+        const nome = marker.obraData.nome.toLowerCase();
+        const match = nome.includes(searchTerm);
+        marker.setOpacity(match ? 1 : 0.3);
+        marker.setZIndexOffset(match ? 10000 : 0);
+    });
+});
+
+// Event listeners para controles
+document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+    checkbox.addEventListener('change', atualizarFiltros);
+});
+
+document.getElementById('ordenacao').addEventListener('change', atualizarFiltros);
 // Exibir coordenadas no console ao clicar no mapa
 // mapa.on('click', (e) => {
 //     console.log(`Coordenadas: ${e.latlng}`);
