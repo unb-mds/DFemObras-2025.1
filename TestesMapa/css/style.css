@@ -395,3 +395,42 @@ footer {
 .planejada {
   background-image: url('../js/pins/inativada.png');
 }
+
+.filters-container {
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    max-width: 300px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group h3 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #133e79;
+}
+
+.filter-group label {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#ordenacao {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#search-input {
+    width: 100%;
+    padding: 5px;
+}
