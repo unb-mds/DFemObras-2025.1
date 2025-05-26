@@ -47,19 +47,8 @@ O sistema é composto por três camadas principais:
 - **Cohere AI** (Geração de linguagem natural)
 - **JSON** (Armazenamento de dados)
 - **API Obras Gov** (Fonte de dados)
+- **Java script/CSS** (upgrade do frontend)
 
----
-
-## 📁 Estrutura Sugerida do Projeto
-
-```
-📦 projeto-obras-publicas
-├── backend-node/           # Backend em Node.js
-├── bot-x/                  # Bot Python para Twitter/X
-├── public/                 # Arquivos da interface web
-├── data/                   # JSON com dados das obras
-├── README.md               # Documentação do projeto
-```
 
 ---
 
