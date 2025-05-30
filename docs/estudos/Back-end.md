@@ -12,14 +12,54 @@ O sistema é composto por três componentes principais:
 
 - Desenvolvido em Python usando a biblioteca Tweepy (a confirmar).  
 - É responsável por identificar obras com status "atrasada" e publicar atualizações automáticas no Twitter.  
-- Consome dados diretamente dos arquivos gerados ou formatados via API Node.js.  
+- Consome dados diretamente dos arquivos gerados ou formatados via Node.js.  
 - Pode ser executado como um serviço agendado (ex.: cron) para postagens periódicas.
 
-**Exemplo de tweet automático:**
+**Mensagem tweet automático:**
+> O código completo do bot pode ser encontrado [aqui](https://github.com/unb-mds/DFemObras/blob/main/Bots/bot_Twitter.py).
 
-> Obra “Recapeamento da via W3 Sul” está atrasada há 75 dias. Valor total: R$ 3.200.000. #ObrasDF #Transparência
+```python
+def run_bot(out_image_dir):
+    try:
+        config = load_config()
+        cohere_client = get_cohere_client(config["cohere_api_key"])
+        twitter_client_v2, twitter_client_v1 = get_twitter_client(config)
 
-### 2.2. API Node.js (Serviço de Dados e Visualização)
+        if not os.path.exists(out_image_dir):
+            print(f"Erro: Diretório de imagens não encontrado - {out_image_dir}")
+            return
+
+        image_files = [f for f in os.listdir(out_image_dir) if f.endswith('.png')]
+
+        if not image_files:
+            print("Nenhuma imagem encontrada para enviar.")
+            return
+
+        for image_file in image_files:
+            image_path = os.path.join(out_image_dir, image_file)
+
+            if os.path.exists(image_path):
+                media = twitter_client_v1.media_upload(image_path)
+
+                prompt = "Crie uma mensagem criativa para acompanhar essa imagem como um boletim semanal de reporte de obras atrasadas em no máximo 100 caracteres e adicione este link https://unb-mds.github.io/DFemObras/anomalias.html ao texto indicando que lá existem mais informações e marque o perfil do gdf e inclua este perfil https://x.com/Gov_DF com o padrão de marcar no tweet."
+                message = generate_message(cohere_client, prompt)
+
+                if message:
+                    tweet = twitter_client_v2.create_tweet(text=message, media_ids=[media.media_id])
+                    print(f"Tweet enviado com sucesso: {tweet}")
+                else:
+                    tweet = twitter_client_v2.create_tweet(media_ids=[media.media_id])
+                    print(f"Tweet enviado com sucesso (sem mensagem): {tweet}")
+
+                time.sleep(3)
+            else:
+                print(f"Imagem não encontrada: {image_path}")
+
+    except Exception as e:
+        print("Erro durante a execução do bot:", e)
+```
+
+### 2.2. Node.js (Serviço de Dados e Visualização)
 
 - Responsável por buscar os dados das obras diretamente da fonte (ex: API pública do governo) e formatá-los para o front-end.  
 - Realiza chamadas à API do governo para obter dados atualizados.  
