@@ -42,7 +42,9 @@ GET https://nominatim.openstreetmap.org/reverse?lat=-15.7941&lon=-47.8825&format
     "country": "Brazil"
   }
 }
+```
 Neste exemplo, o campo `"suburb"` ou `"city_district"` pode indicar a Região Administrativa (dependendo da consistência dos dados do OSM para a região do DF).
+
 
 ## Considerações
 
