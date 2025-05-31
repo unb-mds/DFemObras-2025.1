@@ -1,4 +1,4 @@
-# 🏁 Sprint 01
+# 🏁 Sprint 06
 
 **Período:** 17/05/2025 a 23/05/2025
 
@@ -54,7 +54,7 @@ A Sprint foi concluída com sucesso, cumprindo os objetivos traçados. O projeto
 
 ## 👥 Distribuição de Tarefas – *DF em Obras*
 
-Organização por responsável, com base no backlog priorizado.
+Organização por responsável, com base no backlog priorizado (https://github.com/unb-mds/DFemObras-2025.1/blob/main/docs/requisitos/backlog.md).
 
 ---
 
