@@ -54,7 +54,7 @@ O sistema é composto por três camadas principais:
 
 ## 🧠 Futuras Melhorias
 
-Adicionar a API da RA (Responsabilidade de Acompanhamento).
+Adicionar a API da RA (Região Administrativa).
 
 Incluir módulo de gráficos com estatísticas visuais.
 
