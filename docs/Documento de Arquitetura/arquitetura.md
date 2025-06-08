@@ -1,61 +1,90 @@
-# 🗺️ Sistema de Análise de Obras Públicas do DF
+# Documento de Arquitetura — Sistema de Análise de Obras Públicas do DF
 
-Este projeto tem como objetivo apresentar informações sobre obras públicas do Distrito Federal de forma interativa e acessível, utilizando um mapa interativo e integração com redes sociais.
+## 1. Introdução
 
----
+Este documento descreve a arquitetura do **Sistema de Análise de Obras Públicas do Distrito Federal**, que evolui uma versão anterior do mesmo sistema. O objetivo principal é apresentar informações sobre obras públicas do DF de forma interativa e acessível, utilizando um mapa interativo e integração com redes sociais.
 
-## 📐 Arquitetura do Sistema
+O público-alvo do sistema são **cidadãos em geral**, que buscam visualizações claras e atualizadas sobre as obras públicas, facilitando o acompanhamento e a fiscalização social.
 
-O sistema é composto por três camadas principais:
-
-### 1. Camada de Apresentação
-- **Sistema Web**: Interface web que apresenta um **mapa interativo** com dados das obras públicas.
-- **Usuário**: Pessoa interessada em consultar informações sobre obras no DF.
-
-### 2. Camada de Aplicação (Backend)
-- **Aplicação Backend (Node.js)**: Automação principal que consome a API de obras públicas, processa os dados e constrói o mapa com a API **Leaflet**.
-- **Bot_X (Python)**: Automatiza o envio de tweets para relatar anomalias detectadas nas obras, usando a API **Tweepy**.
-- **Cohere (IA)**: Utilizada para gerar mensagens humanizadas para os tweets.
-
-### 3. Camada de Dados
-- **Fonte de dados**: API de obras públicas (`Obras gov`) que fornece os dados atualizados.
-- **Armazenamento (JSON)**: Dados das obras são armazenados localmente em formato JSON.
-- **APIs utilizadas**:
-  - **Obras gov**: Fonte principal de dados sobre obras.
-  - **Leaflet**: Criação do mapa interativo.
-  - **Tweepy**: Envio de mensagens para a rede social **X** (antigo Twitter).
-  - **Cohere**: Geração de mensagens com linguagem natural.
+Esta arquitetura busca proporcionar uma visualização mais clara para o usuário, com informações aprimoradas sobre as regiões administrativas (RA) e uma evolução no bot de Twitter para comunicação mais humanizada.
 
 ---
 
-## 🔁 Fluxo de Funcionamento
+## 2. Histórico e Justificativas Técnicas
 
-1. O **usuário** acessa a aplicação web.
-2. A aplicação carrega os dados via API pública de obras.
-3. O **Backend (Node.js)** processa e exibe os dados no mapa via **Leaflet**.
-4. O **Bot_X (Python)** detecta possíveis anomalias e usa **Cohere** para escrever tweets.
-5. Os tweets são postados na rede social **X** com **Tweepy**.
+- O backend principal utiliza **Node.js**, em continuidade tecnológica com a versão anterior do sistema, permitindo reaproveitamento de código e da equipe técnica familiarizada com essa tecnologia.
+- O armazenamento dos dados das obras públicas é feito em arquivos **JSON**, mantendo compatibilidade com o projeto passado e facilitando a simplicidade de manipulação local.
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## 3. Arquitetura do Sistema
 
-- **Node.js** (Backend principal)
-- **Python** (Bot para rede social)
-- **Leaflet.js** (Mapas interativos)
-- **Tweepy** (Integração com Twitter/X)
-- **Cohere AI** (Geração de linguagem natural)
-- **JSON** (Armazenamento de dados)
-- **API Obras Gov** (Fonte de dados)
-- **Java script/CSS** (upgrade do frontend)
+O sistema é organizado em três camadas principais:
+
+### 3.1 Camada de Apresentação
+
+- **Sistema Web:** Interface web que apresenta o mapa interativo das obras públicas, utilizando a API Leaflet.js para a visualização geográfica.
+- **Usuário:** Cidadãos em geral interessados em consultar dados das obras no DF.
+
+### 3.2 Camada de Aplicação (Backend)
+
+- **Backend Node.js:** Responsável por consumir a API pública de obras, processar os dados e construir as visualizações do mapa.
+- **Bot Python (Bot_X):** Automatiza o envio de tweets relatando anomalias detectadas nas obras, utilizando a API Tweepy e a inteligência artificial da Cohere para gerar mensagens humanizadas.
+
+### 3.3 Camada de Dados
+
+- **Fonte de dados:** API pública do governo que fornece dados atualizados sobre obras públicas.
+- **Armazenamento:** Dados são salvos localmente em formato JSON, seguindo o padrão do sistema anterior.
+
+---
+
+## 4. Integrações e Fluxos
+
+- O backend realiza chamadas à API de obras públicas, com frequência aproximada diária.
+- O bot Python executa o monitoramento das informações e a geração dos tweets.
+- A comunicação entre os componentes ocorre via consumo da API pública e armazenamento compartilhado em JSON.
+- Integrações com APIs externas incluem:
+  - API de Obras Públicas do DF.
+  - Leaflet.js para visualização.
+  - Tweepy para postagem na rede social X (antigo Twitter).
+  - Cohere AI para geração de texto natural.
+
+---
+
+## 5. Segurança e Privacidade
+
+- Todos os dados tratados são públicos, provenientes de fontes governamentais abertas.
+- O gerenciamento das chaves de API (para Tweepy, Cohere etc.) é importante garantir que fiquem armazenadas de forma segura, idealmente via variáveis de ambiente ou arquivos `.env`.
+
+---
 
 
 ---
 
-## 🧠 Futuras Melhorias
+## 6. Escalabilidade e Performance
 
-Adicionar a API da RA (Região Administrativa).
+- O sistema espera um número considerável de acessos simultâneos.
+- A arquitetura atual é suficiente para o estágio atual do projeto, mas poderá ser revisada conforme o crescimento do uso.
 
-Incluir módulo de gráficos com estatísticas visuais.
+---
 
-Permitir interação dinâmica com os filtros do mapa.
+## 7. Roadmap de Evolução
+
+| Iteração | Funcionalidade                        | Justificativa                               |
+|----------|-------------------------------------|---------------------------------------------|
+| 1        | Integração com API da Região Administrativa (RA) | Melhor granularidade e precisão dos dados  |
+| 2        | Módulo de gráficos estatísticos     | Visualização avançada do status das obras  |
+| 3        | Filtros interativos no mapa         | Melhor experiência e personalização para o usuário |
+| 4        | Melhor organização da interface     | Maior clareza e usabilidade para cidadãos  |
+
+
+---
+
+## 8. Decisões Arquiteturais
+
+- Manutenção de Node.js no backend e JSON para armazenamento baseadas na continuidade do projeto anterior, visando reaproveitamento e facilidade de manutenção.
+- Separação do bot em Python, possibilita uso específico de bibliotecas como Tweepy e Cohere.
+
+---
+
+
