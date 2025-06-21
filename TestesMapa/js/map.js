@@ -186,7 +186,7 @@ function verificarResposta(resposta) {
 }
 
 function obterDadosDasObras() {
-    return fetch('./obrasgov/obras_com_lat_long.json')
+    return fetch('./obrasgov/src/obras_com_lat_long.json')
         .then(verificarResposta)
         .then(resposta => resposta.json())
         .then(dados => {
