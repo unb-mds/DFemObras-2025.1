@@ -38,7 +38,7 @@ jobs:
         run: |
           cd TestesMapa
           cd obrasgov 
-          cd scr
+          cd src
           node index.js
 
       # Passo 5: Atualizar o repositório remoto antes de fazer o commit
