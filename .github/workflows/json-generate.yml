@@ -13,7 +13,10 @@ permissions:
 jobs:
   gerar-json:
     runs-on: ubuntu-latest
-    timeout-minutes: 120 # Timeout de 120 minutos para garantir que o processo tenha tempo suficiente
+    timeout-minutes: 120
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       # Passo 1: Fazer checkout do repositório
@@ -29,41 +32,44 @@ jobs:
       # Passo 3: Instalar dependências
       - name: Instalar dependências
         run: |
-          cd TestesMapa
-          cd obrasgov 
+          cd TestesMapa/obrasgov 
           npm install
 
       # Passo 4: Executar o script para gerar o JSON
       - name: Rodar script para gerar JSON
         run: |
-          cd TestesMapa
-          cd obrasgov 
-          cd src
+          cd TestesMapa/obrasgov/src
           node index.js
 
-      # Passo 5: Atualizar o repositório remoto antes de fazer o commit
-      - name: Atualizar repositório remoto
+      # Passo 5: Verificar se houve mudanças
+      - name: Verificar mudanças
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      # Passo 6: Commit e push do arquivo JSON gerado (apenas se houver mudanças)
+      - name: Commit e push do arquivo JSON
+        if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
-          git pull --rebase origin main
-
-      # Passo 6: Commit e push do arquivo JSON gerado
-      - name: Commit e push do arquivo JSON
-        run: |
           git add TestesMapa/obrasgov/src/obras_com_lat_long.json
-          git commit -m "ci: Atualizando obras_com_lat_long.json gerado automaticamente" || echo "No changes to commit"
+          git commit -m "ci: Atualizando obras_com_lat_long.json gerado automaticamente"
           git push origin main
 
       # Passo 7: Configurar GitHub Pages
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       # Passo 8: Fazer upload da pasta TestesMapa como artefato para as Pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './TestesMapa' # Caminho para a pasta com o index.html
+          path: './TestesMapa'
 
       # Deploy para o GitHub Pages
       - name: Deploy to GitHub Pages
