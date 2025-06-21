@@ -1,0 +1,58 @@
+name: Update Obras Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-obras:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: |
+        npm init -y
+        npm install axios
+
+    - name: Fetch and update obras data
+      env:
+        UF_TARGET: ${{ vars.UF_TARGET || 'DF' }}
+        MAX_PAGES: ${{ vars.MAX_PAGES || '50' }}
+        PAGE_SIZE: ${{ vars.PAGE_SIZE || '50' }}
+      run: node .github/scripts/update-obras.js
+
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add obrasgov/obras_com_lat_long.json
+        git add obrasgov/obras_summary.json
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          echo "CHANGES_MADE=false" >> $GITHUB_ENV
+        else
+          git commit -m "🔄 Update obras data - $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+          echo "CHANGES_MADE=true" >> $GITHUB_ENV
+        fi
+
+    - name: Trigger deployment
+      if: env.CHANGES_MADE == 'true'
+      run: |
+        curl -X POST \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/dispatches \
+          -d '{"event_type":"deploy"}'
