@@ -1,94 +1,119 @@
-# Pipeline de Análise de Obras Públicas do DF
+# 🏗️ Pipeline de Análise de Obras Públicas do Distrito Federal
 
-## 📌 Visão Geral
+## 📖 Introdução
 
-Este pipeline foi desenvolvido para coletar, processar, analisar e apresentar dados sobre obras públicas do Distrito Federal. O sistema visa promover transparência, identificar anomalias e oferecer uma interface acessível ao cidadão.
-
----
-
-## 🧭 Etapas do Pipeline
-
-### 1. Coleta de Dados
-
-**Fontes:**
-- Portais públicos de transparência (ex: Portal da Transparência do GDF)
-- Redes sociais e RSS de órgãos governamentais
-- APIs públicas
+Este documento descreve o pipeline do **Sistema de Análise de Obras Públicas do DF**, uma solução desenvolvida para coletar, processar, analisar e divulgar dados relacionados a obras públicas. O objetivo central é promover a **transparência**, o **monitoramento inteligente** e o **acesso fácil à informação** para gestores e cidadãos.
 
 ---
 
-### 2. Processamento e Limpeza
+## 🔁 Visão Geral do Pipeline
 
-**Ações realizadas:**
-- Conversão de formatos (JSON, CSV, HTML)
-- Padronização de campos (datas, números, status)
-- Remoção de duplicatas e dados incompletos
+O pipeline é composto por seis etapas principais:
 
-**Bibliotecas utilizadas:**
-- `pandas`
-- `unidecode`
-
-
----
-
-### 3. Armazenamento
-
-**Método atual:**
-- Armazenamento em arquivos `.csv` e `.json` organizados por data
-
-
+1. **Coleta de Dados**
+2. **Processamento e Limpeza**
+3. **Armazenamento**
+4. **Análise Automatizada**
+5. **Visualização Interativa**
+6. **Divulgação e Integração com Usuários**
 
 ---
 
-### 4. Análise de Dados
+## 1. 📥 Coleta de Dados
 
-**Objetivos:**
-- Detectar anomalias em valores (obras com valores muito altos ou baixos)
-- Verificar status de andamento
-- Gerar indicadores (ex: obras atrasadas, em andamento, concluídas)
+### Fontes utilizadas:
+- Portais governamentais
+- APIs públicas de obras e orçamento )
+- Redes sociais e canais institucionais
 
-**Tecnologias:**
-- Scripts Python com lógica de regras
+### Tecnologias aplicadas:
+- Python: `requests`, `BeautifulSoup`, `json`
+- Agendamento automático: `schedule`, `cron`
+
+---
+
+## 2. 🧹 Processamento e Limpeza
+
+### Atividades realizadas:
+- Normalização de campos
+- Conversão entre formatos 
+- Tratamento de inconsistências e dados ausentes
+- Validação de tipos e estruturas
+
+### Ferramentas:
+- `pandas` para manipulação de dados
 
 
 ---
 
-### 5. Visualização
+## 3. 💾 Armazenamento
 
-**Interface do usuário:**
-- Mapa interativo com filtros por status, valor e localização
-- Gráficos com dados agregados
+### Estrutura atual:
+- Dados salvos em arquivos `.csv` e `.json` organizados por data e tipo
 
-**Ferramentas:**
-- Front-end com JavaScript (e possivelmente Leaflet.js)
-- Back-end com Python ou Node.js servindo dados via API
+### Considerações:
+- Estrutura leve e de fácil transporte
 
----
-
-### 6. Divulgação e Integração
-
-**Canais:**
-- Redes sociais com postagens automatizadas (em desenvolvimento)
-- Integração futura com bots para resposta a dúvidas
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 4. 📊 Análise Automatizada
 
-- Python (pandas, requests, bs4)
-- Node.js (para APIs)
-- JavaScript (para visualização)
-- HTML/CSS (interface básica)
-- CSV/JSON (armazenamento)
+### Objetivos:
+- Identificar obras com possíveis anomalias 
+- Classificar status de obras
+- Gerar indicadores e KPIs
+
+### Tecnologias:
+- Scripts Python com regras lógicas
+- Possibilidade de uso futuro de algoritmos de machine learning
+
+---
+
+## 5. 🗺️ Visualização Interativa
+
+### Componentes:
+- Mapa dinâmico com geolocalização das obras
+- Filtros por status, tipo de obra, região administrativa, valor e data
+- Gráficos e dashboards com dados resumidos
+
+### Tecnologias:
+- Front-end: JavaScript, Leaflet.js ou Mapbox
+- API de dados: Python (Flask/FastAPI) ou Node.js
+- Estilização com HTML/CSS e bibliotecas gráficas
 
 ---
 
-## 🎯 Objetivos Finais
+## 6. 📣 Divulgação e Integração
 
-- Transparência pública
-- Engajamento cidadão
-- Monitoramento contínuo das obras
-- Identificação proativa de problemas
+### Canais previstos:
+- Postagens automatizadas em redes sociais
+- Respostas via bot a perguntas frequentes da população
+
 
 ---
+
+## ⚙️ Tecnologias Utilizadas
+
+| Categoria           | Ferramentas/Frameworks          |
+|---------------------|----------------------------------|
+| Linguagens          | Python, JavaScript, Node.js      |
+| Coleta de dados     | requests, BeautifulSoup, cron    |
+| Processamento       | pandas, unidecode, regex         |
+| Armazenamento       | CSV, JSON                        |
+| Visualização        | Leaflet.js, HTML/CSS             |
+| API e Integração    | Flask, FastAPI ou Express        |
+
+---
+
+## 🎯 Benefícios Esperados
+
+- ✅ Aumento da transparência pública
+- ✅ Monitoramento contínuo e em tempo real
+- ✅ Apoio à fiscalização e tomada de decisão
+- ✅ Engajamento da sociedade civil
+- ✅ Redução de fraudes, atrasos e sobrecustos
+
+---
+
 
