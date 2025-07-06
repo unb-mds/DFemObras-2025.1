@@ -524,6 +524,35 @@ header nav a:hover {
   display: none;
 }
 
+/* estilização da parte de gráficos*/
+
+.graficos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+}
+.grafico-img {
+  max-width: 45rem;
+  height: 45rem;
+  margin-bottom: 20px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.graficos-section {
+  padding-top: 80px; 
+  text-align: center;
+}
+
+
+/*********/
+
+
+
+
 @media (max-width: 1100px) {
   header .title {
     display: none;
