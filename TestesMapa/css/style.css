@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 :root {
   --header-height: 70px;
@@ -11,9 +11,10 @@
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -24,19 +25,19 @@ header {
   right: 0;
   width: 100%;
   height: var(--header-height);
-  background-color: #133E79;
+  background-color: #133e79;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
   z-index: 1001;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   gap: 10px;
 }
 
 header .logo {
-  height: 50px; 
+  height: 50px;
   width: auto;
   margin-right: 8px;
 }
@@ -67,7 +68,7 @@ header nav {
 }
 
 header nav a {
-  color: #133E79;
+  color: #133e79;
   text-decoration: none;
   font-size: 15px;
   padding: 7px 14px;
@@ -103,7 +104,7 @@ header nav a:hover {
   flex-direction: column;
   position: relative;
   z-index: 1000;
-  box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .map-container {
@@ -119,16 +120,16 @@ header nav a:hover {
 }
 
 .filters-section {
-  padding: 15px; 
+  padding: 15px;
   border-bottom: 2px solid #dee2e6;
   background: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .filters-section h3 {
-  margin: 0 0 12px 0; 
+  margin: 0 0 12px 0;
   color: #133e79;
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: 600;
   border-bottom: 2px solid #133e79;
   padding-bottom: 6px;
@@ -140,7 +141,7 @@ header nav a:hover {
 
 .filter-group label {
   display: block;
-  margin-bottom: 4px; 
+  margin-bottom: 4px;
   font-weight: 600;
   color: #495057;
   font-size: 13px;
@@ -171,12 +172,12 @@ header nav a:hover {
 
 .filter-actions button {
   width: 100%;
-  padding: 10px; 
+  padding: 10px;
   background: linear-gradient(135deg, #6c757d, #5a6268);
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 13px; 
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -184,12 +185,12 @@ header nav a:hover {
 
 .filter-actions button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   background: linear-gradient(135deg, #5a6268, #495057);
 }
 
 .filter-status {
-  margin-top: 12px; 
+  margin-top: 12px;
   padding: 10px;
   background: linear-gradient(135deg, #e3f2fd, #bbdefb);
   border-radius: 5px;
@@ -198,7 +199,7 @@ header nav a:hover {
   color: #1565c0;
   text-align: center;
   font-weight: 600;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .obras-section {
@@ -211,7 +212,7 @@ header nav a:hover {
 }
 
 .obras-section h3 {
-  margin: 0 0 12px 0; 
+  margin: 0 0 12px 0;
   color: #133e79;
   font-size: 16px;
   font-weight: 600;
@@ -226,7 +227,7 @@ header nav a:hover {
 }
 
 .obras-list::-webkit-scrollbar {
-  width: 6px; 
+  width: 6px;
 }
 
 .obras-list::-webkit-scrollbar-track {
@@ -246,25 +247,25 @@ header nav a:hover {
 .obra-item {
   background: white;
   border: 2px solid #dee2e6;
-  border-radius: 6px; 
-  padding: 12px; 
-  margin-bottom: 10px; 
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-left: 4px solid #133e79; 
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid #133e79;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .obra-item:hover {
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15); 
-  transform: translateY(-2px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
   border-color: #133e79;
 }
 
 .obra-item.highlighted {
   background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
   border-left-color: #2196f3;
-  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.3); 
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.3);
 }
 
 .obra-item.atrasada {
@@ -274,25 +275,31 @@ header nav a:hover {
 }
 
 @keyframes pulse-border {
-  0% { border-left-color: #f44336; }
-  50% { border-left-color: #ff8a80; }
-  100% { border-left-color: #f44336; }
+  0% {
+    border-left-color: #f44336;
+  }
+  50% {
+    border-left-color: #ff8a80;
+  }
+  100% {
+    border-left-color: #f44336;
+  }
 }
 
 .obra-title {
   font-weight: 700;
   color: #133e79;
   margin-bottom: 8px;
-  font-size: 14px; 
-  line-height: 1.3; 
+  font-size: 14px;
+  line-height: 1.3;
   word-wrap: break-word;
 }
 
 .obra-info {
-  margin: 4px 0; 
-  font-size: 12px; 
+  margin: 4px 0;
+  font-size: 12px;
   color: #666;
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 
 .obra-info strong {
@@ -302,13 +309,13 @@ header nav a:hover {
 
 .obra-status {
   display: inline-block;
-  padding: 3px 8px; 
-  border-radius: 15px; 
-  font-size: 10px; 
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-size: 10px;
   font-weight: 600;
   margin-top: 8px;
   text-transform: uppercase;
-  letter-spacing: 0.3px; 
+  letter-spacing: 0.3px;
 }
 
 .status-cadastrada {
@@ -338,19 +345,25 @@ header nav a:hover {
 }
 
 @keyframes pulse-status {
-  0% { opacity: 1; }
-  50% { opacity: 0.7; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .legend {
   position: absolute;
   bottom: 20px;
-  left: calc(var(--sidebar-width) + 20px); 
+  left: calc(var(--sidebar-width) + 20px);
   background: rgba(255, 255, 255, 0.95);
-  padding: 12px; 
+  padding: 12px;
   border-radius: 6px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   backdrop-filter: blur(5px);
 }
@@ -373,7 +386,7 @@ header nav a:hover {
   border-radius: 50%;
   margin-right: 8px;
   border: 2px solid white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .pin.cadastrada {
@@ -398,9 +411,18 @@ header nav a:hover {
 }
 
 @keyframes pulse {
-  0% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.7; transform: scale(1.1); }
-  100% { opacity: 1; transform: scale(1); }
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .modal {
@@ -411,7 +433,7 @@ header nav a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
 }
 
@@ -423,7 +445,7 @@ header nav a:hover {
   max-width: 800px;
   max-height: 90vh;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .modal-header {
@@ -468,7 +490,7 @@ header nav a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(3px);
@@ -482,7 +504,7 @@ header nav a:hover {
   margin: 20px;
   text-align: center;
   position: relative;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .popup-content .close {
@@ -498,7 +520,7 @@ header nav a:hover {
 
 .loading {
   text-align: center;
-  padding: 20px 15px; 
+  padding: 20px 15px;
   color: #666;
   font-style: italic;
   font-size: 13px;
@@ -538,20 +560,16 @@ header nav a:hover {
   margin-bottom: 20px;
   border: 2px solid #eee;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
 
 .graficos-section {
-  padding-top: 80px; 
+  padding-top: 80px;
   text-align: center;
 }
 
-
 /*********/
-
-
-
 
 @media (max-width: 1100px) {
   header .title {
@@ -569,11 +587,11 @@ header nav a:hover {
   :root {
     --sidebar-width: 280px;
   }
-  
+
   header {
     padding: 0 15px;
   }
-  
+
   .hamburger {
     display: flex;
   }
@@ -592,8 +610,8 @@ header nav a:hover {
   header nav a {
     width: 100%;
     text-align: center;
-    background-color: rgba(255,255,255,0.9);
-    color: #133E79;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #133e79;
     margin: 2px 0;
     border-radius: 5px;
     backdrop-filter: blur(5px);
@@ -602,11 +620,11 @@ header nav a:hover {
   #menu-toggle:checked ~ nav {
     display: flex;
   }
-  
+
   .container {
     flex-direction: column;
   }
-  
+
   .sidebar {
     width: 100%;
     min-width: 100%;
@@ -614,17 +632,17 @@ header nav a:hover {
     border-right: none;
     border-bottom: 2px solid #dee2e6;
   }
-  
+
   .map-container {
     width: 100%;
     height: 60vh;
   }
-  
+
   .legend {
     left: 20px;
     bottom: 10px;
   }
-  
+
   .obras-section {
     max-height: 200px;
   }
@@ -639,20 +657,20 @@ header nav a:hover {
   .filters-section {
     padding: 12px;
   }
-  
+
   .obras-section {
     padding: 12px;
   }
-  
+
   .obra-item {
     padding: 10px;
     margin-bottom: 8px;
   }
-  
+
   .obra-title {
     font-size: 13px;
   }
-  
+
   .obra-info {
     font-size: 11px;
   }

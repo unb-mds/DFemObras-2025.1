@@ -8,36 +8,36 @@ jest.mock('../../services/apiService');
 jest.mock('../../utils/geometryUtils');
 
 describe('processObra', () => {
-    test('deve processar uma obra com geometria válida', async () => {
-        const obra = { idUnico: '123', nome: 'Obra 1' };
-        const mockGeometria = [{ geometriaWkt: 'POINT (-47.1234 -15.5678)' }];
-        const mockCoords = { longitude: -47.1234, latitude: -15.5678 };
+  test('deve processar uma obra com geometria válida', async () => {
+    const obra = { idUnico: '123', nome: 'Obra 1' };
+    const mockGeometria = [{ geometriaWkt: 'POINT (-47.1234 -15.5678)' }];
+    const mockCoords = { longitude: -47.1234, latitude: -15.5678 };
 
-        cacheService.getFromCache.mockReturnValue(null);
-        apiService.fetchGeometria.mockResolvedValue(mockGeometria);
-        geometryUtils.extractLatLong.mockReturnValue(mockCoords);
+    cacheService.getFromCache.mockReturnValue(null);
+    apiService.fetchGeometria.mockResolvedValue(mockGeometria);
+    geometryUtils.extractLatLong.mockReturnValue(mockCoords);
 
-        const result = await processObra(obra);
+    const result = await processObra(obra);
 
-        expect(result).toEqual({
-            ...obra,
-            latitude: mockCoords.latitude,
-            longitude: mockCoords.longitude,
-        });
+    expect(result).toEqual({
+      ...obra,
+      latitude: mockCoords.latitude,
+      longitude: mockCoords.longitude,
     });
+  });
 
-    test('deve lidar com erro ao processar geometria', async () => {
-        const obra = { idUnico: '123', nome: 'Obra 1' };
+  test('deve lidar com erro ao processar geometria', async () => {
+    const obra = { idUnico: '123', nome: 'Obra 1' };
 
-        cacheService.getFromCache.mockReturnValue(null);
-        apiService.fetchGeometria.mockRejectedValue(new Error('Erro na API'));
+    cacheService.getFromCache.mockReturnValue(null);
+    apiService.fetchGeometria.mockRejectedValue(new Error('Erro na API'));
 
-        const result = await processObra(obra);
+    const result = await processObra(obra);
 
-        expect(result).toEqual({
-            ...obra,
-            latitude: null,
-            longitude: null,
-        });
+    expect(result).toEqual({
+      ...obra,
+      latitude: null,
+      longitude: null,
     });
+  });
 });
