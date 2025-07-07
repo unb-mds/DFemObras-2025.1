@@ -46,9 +46,9 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
 - Revisão coletiva do material do trabalho anterior  
 - Organização das tarefas para a próxima Sprint  
 - Distribuição dos papéis ágeis entre os membros:
-  - **Scrum Master:** [Samuel](https://github.com/samuel-a-santos)  
+  - **Scrum Master:** [Samuel](https://github.com/samuel-a-santos)  [Heloisa](https://github.com/Heloisa-Santos)
   - **Product Owner:** [Lucas](https://github.com/LORliveira) e [Beatriz](https://github.com/BeatrizSants)  
-  - **DevOps:** [Heloisa](https://github.com/Heloisa-Santos) e [Pedro](https://github.com/PedroHenriqueCo)  
+  - **DevOps:**  [Samuel](https://github.com/samuel-a-santos) e [Pedro](https://github.com/PedroHenriqueCo)  
   - **Desenvolvedores:** [Laura](https://github.com/laurarogelin) e [Leonardo](https://github.com/Antedeguemon21)  
 
 ## Finalização  
