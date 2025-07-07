@@ -5,10 +5,10 @@ from modulo_tratamento_dados import carregaDados, normaliza_coluna_lista_dict
 
 def salvar(fig, nome):
     """
-    Salva a figura em uma pasta 'static/graficos' relativa ao arquivo.
+    Salva a figura em uma pasta 'TestesMapa/graficos' relativa ao projeto.
     """
-    base_dir = os.path.dirname(__file__)
-    output_dir = os.path.join(base_dir, 'static', 'graficos')
+    base_dir = os.path.dirname(os.path.dirname(__file__))  # volta para a raiz do projeto
+    output_dir = os.path.join(base_dir, 'TestesMapa', 'graficos')
     os.makedirs(output_dir, exist_ok=True)
     path = os.path.join(output_dir, nome)
     fig.savefig(path, bbox_inches='tight')
