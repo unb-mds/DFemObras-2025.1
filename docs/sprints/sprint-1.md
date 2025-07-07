@@ -3,7 +3,7 @@
 
 ## Descrição  
 
-Nesta Sprint, o grupo deu continuidade aos trabalhos do projeto, com foco no aprofundamento técnico e na análise do trabalho anterior sobre o tema escolhido: **Obras BSB**. Os membros realizaram estudos mais detalhados sobre GitHub e Papéis Ágeis, além de compartilharem os aprendizados com a equipe.  
+Nesta Sprint, o grupo deu continuidade aos trabalhos do projeto, com foco no aprofundamento técnico e na análise do trabalho anterior sobre o tema escolhido: **DF em obras**. Os membros realizaram estudos mais detalhados sobre GitHub e Papéis Ágeis, além de compartilharem os aprendizados com a equipe.  
 
 Também foi realizada a análise do trabalho anterior relacionado ao projeto, o que servirá como base para a estruturação e organização das próximas etapas. Os papéis ágeis foram determinados e o grupo alinhou expectativas para a Sprint seguinte.
 
@@ -25,7 +25,7 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
 
 **Ata:**    
 - Discussão sobre o andamento dos estudos e dificuldades encontradas  
-- Alinhamento da análise do trabalho anterior sobre o tema **Obras BSB**  
+- Alinhamento da análise do trabalho anterior sobre o tema **DF em obras**  
 - Definição dos responsáveis por dar continuidade aos estudos:
 
 | Tema | Responsável |
@@ -53,5 +53,5 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
 
 ## Finalização  
 
-Todos os objetivos da Sprint 1 foram concluídos com sucesso. O grupo manteve o engajamento, aprofundou os conhecimentos necessários e organizou os próximos passos do projeto com base nas análises realizadas. A equipe segue alinhada e comprometida com o desenvolvimento do **Obras BSB**.
+Todos os objetivos da Sprint 1 foram concluídos com sucesso. O grupo manteve o engajamento, aprofundou os conhecimentos necessários e organizou os próximos passos do projeto com base nas análises realizadas. A equipe segue alinhada e comprometida com o desenvolvimento do **DF em obras**.
 
