@@ -555,7 +555,7 @@ header nav a:hover {
   padding: 5%;
 }
 .grafico-img {
-  max-width: 100%;
+  max-width: 48%;
   height: auto;
   margin-bottom: 20px;
   border: 2px solid #eee;
