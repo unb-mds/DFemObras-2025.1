@@ -43,7 +43,7 @@ Nessa reunião, o time definiu os membros que serão responsáveis por estudar o
 2. Desenvolvimento do Aplicativo MEPA - Monitoramento da Qualidade Energética
 3. Análise de Sentimentos dos Comentários do Brasil Participativo
 
- **Tema Final:** Obras BSB
+ **Tema Final:** DF em obras
 
 ## Finalização
 
