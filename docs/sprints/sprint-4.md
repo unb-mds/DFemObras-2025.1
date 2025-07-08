@@ -5,7 +5,7 @@
 
 ## 📝 Descrição
 
-A Sprint 04 marca o início efetivo do desenvolvimento das melhorias e novas funcionalidades para o projeto *Obras BSB*. Após os estudos individuais e a análise do sistema anterior realizados na Sprint 03, a equipe deu início à implementação prática das propostas levantadas.
+A Sprint 04 marca o início efetivo do desenvolvimento das melhorias e novas funcionalidades para o projeto *DF em obras*. Após os estudos individuais e a análise do sistema anterior realizados na Sprint 03, a equipe deu início à implementação prática das propostas levantadas.
 
 Durante essa fase, começou-se a aplicar uma *nova estilização ao layout, com mudanças visuais nas cores e estrutura geral. Também foi iniciada a **criação de uma nova tela de início* para o projeto, bem como a *implementação de uma funcionalidade de filtragem de obras no mapa*, aprimorando a experiência do usuário.
 
