@@ -48,7 +48,7 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
 - Distribuição dos papéis ágeis entre os membros:
   - **Scrum Master:** [Heloisa](https://github.com/Heloisa-Santos)
   - **Product Owner:** [Lucas](https://github.com/LORliveira) e [Beatriz](https://github.com/BeatrizSants)  
-  - **DevOps:**  [Samuel](https://github.com/samuel-a-santos) e [Pedro](https://github.com/PedroHenriqueCo)  
+  - **Front end:**  [Samuel](https://github.com/samuel-a-santos) e [Pedro](https://github.com/PedroHenriqueCo)  
   - **Desenvolvedores:** [Laura](https://github.com/laurarogelin) e [Leonardo](https://github.com/Antedeguemon21)  
 
 ## Finalização  
