@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DFemObras</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/crane.png" />
+</head>
+
+<body>
+  <center>
+    <header>
+      <img src="fotos/Unb.png" alt="Logo da UnB" class="logo" />
+      <img src="fotos/Logo DF-Photoroom.jpg" alt="imagem gdf" width="130px" class="logo" />
+
+      <div class="title">
+        <h1>DF em Obras</h1>
+        <p class="subtitle">
+          "Facilitando o acesso às informações que constroem o DF."
+        </p>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav>
+        <a href="https://github.com/unb-mds/DFemObras-2025.1">Repositório</a>
+        <a href="../TestesMapa/graficos.html">Gráficos</a>
+        <a href="../TestesMapa/documentação/index.html">Sobre Nós</a>
+        <!-- Botão de dark mode -->
+        <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+        </div>
+      </nav>
+    </header>
+  </center>
+
+  <div class="container">
+    <div class="sidebar">
+      <div class="filters-section">
+        <h3>🔍 Filtros</h3>
+
+        <div id="filter-status" class="filter-status">
+          Carregando obras...
+        </div>
+
+        <div class="filter-group">
+          <label for="ra-filter">🏛️ Região Administrativa</label>
+          <select id="ra-filter">
+            <option value="">Todas as RAs</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="situacao-filter">📊 Situação</label>
+          <select id="situacao-filter">
+            <option value="">Todas as Situações</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="especie-filter">🏗️ Espécie</label>
+          <select id="especie-filter">
+            <option value="">Todas as Espécies</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="atraso-filter">⏰ Obras Atrasadas</label>
+          <select id="atraso-filter">
+            <option value="">Todas as Obras</option>
+            <option value="atrasadas">Apenas Atrasadas</option>
+            <option value="no-prazo">Apenas no Prazo</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="search-input">🔍 Buscar</label>
+          <input type="text" id="search-input" placeholder="Nome, endereço, descrição..." />
+        </div>
+
+        <div class="filter-actions">
+          <button id="clear-filters">🗑️ Limpar Filtros</button>
+        </div>
+      </div>
+
+      <div class="obras-section">
+        <h3>📋 Lista de Obras</h3>
+        <div id="obras-list" class="obras-list">
+          <div class="loading">Carregando obras...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-container">
+      <div id="map"></div>
+    </div>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span id="close-popup" class="close">&times;</span>
+        <h1>Bem-vindo(a)!</h1>
+        <h3>
+          Explore as obras do Governo do DF e acompanhe o progresso do
+          desenvolvimento em nossa região.
+          <br /><br />
+          Este projeto tem como objetivo fornecer um mapeamento detalhado e
+          acessível de todas as iniciativas públicas em andamento.
+          <br /><br />
+          Siga nosso perfil no X para acompanhar o monitoramento das obras:
+          <a href="https://x.com/DFemObras" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="Logo X"
+              width="20" height="20" />
+          </a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="close-modal" class="close">&times;</span>
+          <h2>📋 Detalhes da Obra</h2>
+        </div>
+        <div id="modal-body" class="modal-body">
+        </div>
+      </div>
+    </div>
+
+    <script src="js/map.js"></script>
+    </script>
+</body>
+
+</html>

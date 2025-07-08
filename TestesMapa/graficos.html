@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DFemObras</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://img.icons8.com/color/48/crane.png"
+    />
+  </head>
+  <body>
+        <center>
+     <header>
+      <img
+        src="fotos/Unb.png"
+        alt="Logo da UnB"
+        class="logo"
+      />
+      <img
+        src="fotos/Logo DF-Photoroom.jpg"
+        alt="imagem gdf"
+        width="130px"
+        class="logo"
+      />
+
+        <div class="title">
+            <h1>DF em Obras</h1>
+            <p class="subtitle">
+                "Facilitando o acesso às informações que constroem o DF."
+            </p>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>            
+            <a href="../TestesMapa/index.html">Home</a>
+            <a href="https://github.com/unb-mds/DFemObras-2025.1">Repositório</a>
+            <a href="#sobre-nos">Sobre Nós</a>
+  <!-- Botão de dark mode -->
+  <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+</div>
+        </nav>
+    </header>
+  </center>
+  <center>
+    <section class="graficos-section">
+      <h1>Gráficos do Projeto</h1>
+
+      <div class="graficos-container">
+        <img
+          class="grafico-img"
+          src="../TestesMapa/graficos/situacao_obras.png"
+          alt="Distribuição das Obras por Situação"
+        />
+        <img
+          class="grafico-img"
+          src="../TestesMapa/graficos/pizza_obras_por_eixo.png"
+          alt="Percentual de Obras por Eixo"
+        />
+        <img
+          class="grafico-img"
+          src="../TestesMapa/graficos/tipos_obras_colunas.png"
+          alt="Distribuição por Tipos de Obras"
+        />
+        <img
+          class="grafico-img"
+          src="../TestesMapa/graficos/barras_empilhadas_eixo_situacao.png"
+          alt="Situação das Obras por Eixo"
+        />
+        <img
+          class="grafico-img"
+          src="graficos/barras_empilhadas_tipos_situacao.png"
+          alt="Situação das Obras por Espécie"
+        />
+      </div>
+    </section></center>
+  </body>
+</html>
