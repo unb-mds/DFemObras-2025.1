@@ -50,7 +50,7 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
   - **Product Owner:** [Beatriz](https://github.com/BeatrizSants)  
   - **Front-End:**  [Lucas](https://github.com/LORliveira)
   - **Back-End:**  [Samuel](https://github.com/samuel-a-santos) 
-  - **Desenvolvedores:** [Laura](https://github.com/laurarogelin) , [Leonardo](https://github.com/Antedeguemon21) e [Pedro](https://github.com/PedroHenriqueCo)  
+  - **Desenvolvedores:** [Laura](https://github.com/laurarogelin), [Leonardo](https://github.com/Antedeguemon21) e [Pedro](https://github.com/PedroHenriqueCo)  
 
 ## Finalização  
 
