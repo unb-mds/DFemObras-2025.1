@@ -1,6 +1,5 @@
 # DF em Obras – Transparência e Monitoramento de Obras Públicas no Distrito Federal
 
-Link do Git Pages - (https://unb-mds.github.io/DFemObras-2025.1/index.html)
 
 ## 📑 Descrição do Projeto
 Este projeto consiste na evolução do projeto DF em Obras, uma plataforma para análise e monitoramento das obras públicas do Distrito Federal. O objetivo é oferecer uma ferramenta acessível para cidadãos, estudantes e profissionais acompanharem o andamento, status e gastos das obras, promovendo transparência e controle social.
@@ -40,6 +39,7 @@ Este projeto consiste na evolução do projeto DF em Obras, uma plataforma para 
 | Pedro Henrique Conceição de Souza | [PedroHenriqueCo](https://github.com/PedroHenriqueCo) |
 | Samuel Alessandro Lima dos Santos | [samuel-a-santos](https://github.com/samuel-a-santos) |
 
+🗂️ **Documentação**: [LandingPage](https://unb-mds.github.io/DFemObras-2025.1/index.html), [StoryMap](https://miro.com/app/board/uXjVI47Atug=/)
 
 # 🛠 Guia de Configuração - DF em Obras
 
