@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DF em Obras</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="docs/img/Icone.png" type="docs/img/Icone.png">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2C2C2C;
+    color: #f5f5f5;
+  }
+
+  .container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .container-image {
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #FF9D00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1152px;
+    margin: 0 auto;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  .logo-main {
+    width: 330px;
+  }
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .image-banner{
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .logo-section {
+    border-bottom: 10px solid black;
+    background-color: #FF9D00;
+    padding: 20px;
+    text-align: center;
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .slogan {
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+  .content {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .content h1 {
+    text-align: center;
+    color: #f4a300;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  .projects {
+    border-top: 10px solid #FF9D00;
+    border-bottom: 10px solid #FF9D00;
+    padding: 20px;
+    background-color: #000;
+    color: #f4a300;
+    text-align: center;
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+
+  .icons-forma{
+    width: 170px;
+    height: 170px;
+  }
+
+  .projects h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    margin-top: 70px;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+  }
+  
+  .project-card {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 4px solid #f4a300;
+    padding: 10px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-placeholder {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 600px) {
+    .project-cards {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  .about {
+    background-color: #2C2C2C;
+    color: #f4a300;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .about h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/user.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+  }
+  
+  .about-text {
+    font-size: 14px;
+    color: #f4a300;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .footer-preto {
+    border-top: 10px solid #FF9D00;
+    height: 300px;
+    padding: 20px;
+    background-color: #000;
+    color: #f4a300;
+    text-align: center;
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+  
+  .footer {
+    background-color: #f4a300;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .side-menu {
+    position: absolute;
+    top: -550px;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background-color: #FF9D00;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: top 0.4s ease;
+    z-index: 1000;
+    border-radius: 0 0 0 16px;
+    margin-right: 372px;
+    border-top: 10px solid #000;
+    border-right: 10px solid #000;
+    
+  }
+  
+  .side-menu.active {
+    top: 0;
+  }
+  .menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 1001;
+  }
+
+  @media (max-width: 768px) {
+    .side-menu {
+      width: 100%;
+      height: auto;
+      right: 0;
+      left: 0;
+      border-radius: 0;
+    }
+  }
+
+
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .side-menu li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .unb-logo{
+    width: 100%;
+    margin-top: 170px;
+  }
+</style>
+</head>
+<body>
+  <header class="header">
+    <img class="logo"src="docs/img/Logo.png">
+    
+    <button id="menu-toggle" class="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+
+  <nav id="side-menu" class="side-menu">
+    <ul>
+      <li><i class="icon">🏠</i> Início</li>
+      <li><i class="icon">🎯</i> Objetivos</li>
+      <li><i class="icon">📍</i> Mapa de obras</li>
+      <li><i class="icon">👥</i> Sobre o projeto</li>
+    </ul>
+  </nav>
+  </header>
+
+    <div class="container-image">
+    <img class="image-banner"src="docs/img/BSB.jpg">
+    </div>
+
+  <section class="logo-section">
+    <div class="logo-area">
+      <img class="logo-main" src="docs/img/Logo.png">
+      <p class="slogan">*Facilitando o acesso às informações que constroem o DF.*</p>
+    </div>
+
+  </section>
+  <main class="content">
+    <div class="container">
+
+    <h1>INICIO</h1>
+    <p>
+      O projeto Distrito Federal em Obras foi criado com o objetivo de oferecer à população uma visão clara e acessível do andamento das obras públicas em todo o DF. Por meio de um mapa interativo, você pode acompanhar em tempo real onde as obras estão sendo iniciadas, quais estão em andamento e quais já foram concluídas.
+    </p>
+    <p>
+      Com essa ferramenta, buscamos promover a transparência na gestão pública e facilitar o acompanhamento das melhorias que estão sendo realizadas em cada região. Seja uma reforma em escola, a construção de vias ou novos equipamentos urbanos, agora você pode acompanhar tudo de forma simples e visual.
+    </p>
+    <p>
+      Navegue pelo mapa, explore as regiões e fique por dentro dos investimentos que estão transformando o Distrito Federal!
+    </p>
+  </div>
+  </main>
+</div>
+
+  <section class="projects">
+    <h2>NOSSOS PROJETOS</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <div class="icon-placeholder"><img class="icons-forma" src="docs/img/icocons.png"></div>
+      </div>
+      <div class="project-card">
+        <div class="icon-placeholder"><img class="icons-forma" src="docs/img/x.png"></div>
+      </div>
+      <div class="project-card">
+        <div class="icon-placeholder"><img class="icons-forma"src="docs/img/mapa.png"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>SOBRE O PROJETO</h2>
+  
+    <div class="team">
+      <div class="avatar"></div>
+      <div class="avatar"></div>
+      <div class="avatar"></div>
+      <div class="avatar"></div>
+    </div>
+    <div class="team">
+      <div class="avatar"></div>
+      <div class="avatar"></div>
+      <div class="avatar"></div>
+    </div>
+    <p class="about-text">
+      Somos o Grupo 11 vinculado à disciplina de Métodos de Desenvolvimento de Software.
+      O projeto Obras BSB tem como objetivo evoluir a aplicação desenvolvida no semestre anterior,
+      focada na transparência e monitoramento de obras públicas no Distrito Federal.
+    </p>
+  </section>
+  
+  <section class="footer-preto">
+    <img class="unb-logo" src="docs/img/unb-fga.jpg">
+  </section>
+  <footer class="footer">
+    todos os direitos reservados - 2025 - Grupo de MDS
+  </footer>
+  
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const sideMenu = document.getElementById('side-menu');
+  
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      sideMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+
