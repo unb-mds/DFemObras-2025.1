@@ -18,4 +18,3 @@ if __name__ == "__main__":
     copiar_graficos_para_bots()
     json_file_path = r"./TestesMapa/obrasgov/src/obras_com_lat_long.json"
     output_dir = r"./Bots/imagens"
-    # ...restante do main...

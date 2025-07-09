@@ -14,11 +14,25 @@ def salvar(fig, nome):
     fig.savefig(path, bbox_inches='tight')
     plt.close(fig)
 
+def get_bots_subdir(subdir):
+    """
+    Retorna o caminho para uma subpasta dentro de Bots, criando-a se necessário.
+    """
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    bots_dir = os.path.join(base_dir, 'Bots', subdir)
+    os.makedirs(bots_dir, exist_ok=True)
+    return bots_dir
+
 def grafico_barras_situacao(df, nome_arquivo="situacao_obras.png"):
     """
     Gera e salva gráfico de barras horizontais da coluna 'situacao'.
+    Também salva os dados usados no gráfico em Bots.
     """
     contagem = df['situacao'].value_counts()
+    # Salva os dados usados no gráfico em uma subpasta
+    bots_subdir = get_bots_subdir("dados_graficos")
+    contagem.to_csv(os.path.join(bots_subdir, "dados_situacao_obras.csv"), header=['quantidade'])
+
     fig, ax = plt.subplots(figsize=(10, 6))
     barras = ax.barh(contagem.index, contagem.values, color='skyblue')
     for barra in barras:
@@ -34,8 +48,12 @@ def grafico_barras_situacao(df, nome_arquivo="situacao_obras.png"):
 def grafico_pizza_coluna(df, coluna, nome_arquivo):
     """
     Gera e salva gráfico de pizza para a coluna especificada.
+    Também salva os dados usados no gráfico em Bots.
     """
     contagem = df[coluna].value_counts()
+    bots_subdir = get_bots_subdir("dados_graficos")
+    contagem.to_csv(os.path.join(bots_subdir, f"dados_{coluna}_pizza.csv"), header=['quantidade'])
+
     explode = [0.1 if label == 'Sem eixo' else 0 for label in contagem.index] if coluna == 'eixos' else None
     fig, ax = plt.subplots(figsize=(10, 10))
     wedges, texts, autotexts = ax.pie(
@@ -47,20 +65,19 @@ def grafico_pizza_coluna(df, coluna, nome_arquivo):
         textprops={'fontsize': 15, 'fontweight':'bold'},
         colors=plt.cm.tab20.colors,
     )
-    for autotext in autotexts:
-        autotext.set_rotation(25)
-    ax.set_title(f"Percentual de Obras por {coluna.capitalize()}",
-                 fontsize=22, fontweight='bold', loc='center', pad=20, fontstyle='italic')
-    ax.legend(wedges, contagem.index, title=coluna.capitalize(), loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
     salvar(fig, nome_arquivo)
 
 def grafico_barras_coluna(df, coluna, nome_arquivo):
     """
     Gera e salva gráfico de barras horizontais para a coluna especificada.
+    Também salva os dados usados no gráfico em Bots.
     """
     if coluna not in df.columns:
         raise ValueError(f"A coluna '{coluna}' não existe no DataFrame.")
     contagem = df[coluna].value_counts()
+    bots_subdir = get_bots_subdir("dados_graficos")
+    contagem.to_csv(os.path.join(bots_subdir, f"dados_{coluna}_barras.csv"), header=['quantidade'])
+
     fig, ax = plt.subplots(figsize=(12, 8))
     ax.barh(contagem.index, contagem.values, color='skyblue')
     ax.set_xlabel('Quantidade')
@@ -75,10 +92,14 @@ def grafico_barras_coluna(df, coluna, nome_arquivo):
 def grafico_barras_empilhadas(df, coluna_categoria, coluna_situacao, nome_arquivo):
     """
     Gera e salva gráfico de barras empilhadas mostrando a distribuição de situações por categoria.
+    Também salva os dados usados no gráfico em Bots.
     """
     if coluna_categoria not in df.columns or coluna_situacao not in df.columns:
         raise ValueError("Colunas não encontradas no DataFrame.")
     tabela = pd.crosstab(df[coluna_categoria], df[coluna_situacao])
+    bots_subdir = get_bots_subdir("dados_graficos")
+    tabela.to_csv(os.path.join(bots_subdir, f"dados_{coluna_categoria}_{coluna_situacao}_empilhadas.csv"))
+
     fig, ax = plt.subplots(figsize=(12, 8))
     tabela.plot(kind='bar', stacked=True, ax=ax, colormap='tab20')
     ax.set_xlabel(coluna_categoria.capitalize())
@@ -88,6 +109,9 @@ def grafico_barras_empilhadas(df, coluna_categoria, coluna_situacao, nome_arquiv
     fig.tight_layout()
     salvar(fig, nome_arquivo)
 
+
+
+# Exemplo de uso após carregar e normalizar os dados:
 if __name__ == "__main__":
     # Carrega e normaliza dados necessários
     dados = carregaDados()
