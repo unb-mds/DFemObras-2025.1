@@ -57,7 +57,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add TestesMapa/obrasgov/src/obras_com_lat_long.json
+          git add TestesMapa/obrasgov/obras_com_lat_long.json
           git commit -m "ci: Atualizando obras_com_lat_long.json gerado automaticamente"
           git push origin main
 

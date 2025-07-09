@@ -53,8 +53,4 @@ jobs:
         git pull origin main --rebase --autostash
         git add TestesMapa/anomalias.html
         git commit -m "ci: Adicionando arquivo anomalias.html gerado automaticamente"
-<<<<<<< HEAD
         git push origin main --force
-=======
-        git push origin main --force
->>>>>>> 9f36ec1879030b2c6b5452007a57d8b36fe0b9f6
