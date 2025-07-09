@@ -57,9 +57,14 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add TestesMapa/obrasgov/obras_com_lat_long.json
+          git add TestesMapa/obrasgov/src/obras_com_lat_long.json
           git commit -m "ci: Atualizando obras_com_lat_long.json gerado automaticamente"
           git push origin main
+
+      # Passo extra: Garantir que o arquivo está rastreado pelo git
+      - name: Adicionar arquivo JSON ao git (caso não esteja)
+        run: |
+          git add TestesMapa/obrasgov/src/obras_com_lat_long.json || true
 
       # Passo 7: Configurar GitHub Pages
       - name: Setup Pages
