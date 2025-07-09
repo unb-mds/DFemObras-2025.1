@@ -51,4 +51,8 @@ Closes #...
 ## 💬 Comentários
 
 > Alguma observação, dúvida ou algo a ser destacado?
+<<<<<<< HEAD
 >
+=======
+>
+>>>>>>> 9f36ec1879030b2c6b5452007a57d8b36fe0b9f6

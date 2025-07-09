@@ -3,7 +3,7 @@
 
 ## Descrição  
 
-Nesta Sprint, o grupo deu continuidade aos trabalhos do projeto, com foco no aprofundamento técnico e na análise do trabalho anterior sobre o tema escolhido: **Obras BSB**. Os membros realizaram estudos mais detalhados sobre GitHub e Papéis Ágeis, além de compartilharem os aprendizados com a equipe.  
+Nesta Sprint, o grupo deu continuidade aos trabalhos do projeto, com foco no aprofundamento técnico e na análise do trabalho anterior sobre o tema escolhido: **DF em obras**. Os membros realizaram estudos mais detalhados sobre GitHub e Papéis Ágeis, além de compartilharem os aprendizados com a equipe.  
 
 Também foi realizada a análise do trabalho anterior relacionado ao projeto, o que servirá como base para a estruturação e organização das próximas etapas. Os papéis ágeis foram determinados e o grupo alinhou expectativas para a Sprint seguinte.
 
@@ -25,7 +25,7 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
 
 **Ata:**    
 - Discussão sobre o andamento dos estudos e dificuldades encontradas  
-- Alinhamento da análise do trabalho anterior sobre o tema **Obras BSB**  
+- Alinhamento da análise do trabalho anterior sobre o tema **DF em obras**  
 - Definição dos responsáveis por dar continuidade aos estudos:
 
 | Tema | Responsável |
@@ -46,12 +46,13 @@ Também foi realizada a análise do trabalho anterior relacionado ao projeto, o 
 - Revisão coletiva do material do trabalho anterior  
 - Organização das tarefas para a próxima Sprint  
 - Distribuição dos papéis ágeis entre os membros:
-  - **Scrum Master:** [Samuel](https://github.com/samuel-a-santos)  
-  - **Product Owner:** [Lucas](https://github.com/LORliveira) e [Beatriz](https://github.com/BeatrizSants)  
-  - **DevOps:** [Heloisa](https://github.com/Heloisa-Santos) e [Pedro](https://github.com/PedroHenriqueCo)  
-  - **Desenvolvedores:** [Laura](https://github.com/laurarogelin) e [Leonardo](https://github.com/Antedeguemon21)  
+  - **Scrum Master:** [Heloisa](https://github.com/Heloisa-Santos)
+  - **Product Owner:** [Beatriz](https://github.com/BeatrizSants)  
+  - **Front-End:**  [Lucas](https://github.com/LORliveira)
+  - **Back-End:**  [Samuel](https://github.com/samuel-a-santos) 
+  - **Desenvolvedores:** [Laura](https://github.com/laurarogelin), [Leonardo](https://github.com/Antedeguemon21) e [Pedro](https://github.com/PedroHenriqueCo)  
 
 ## Finalização  
 
-Todos os objetivos da Sprint 1 foram concluídos com sucesso. O grupo manteve o engajamento, aprofundou os conhecimentos necessários e organizou os próximos passos do projeto com base nas análises realizadas. A equipe segue alinhada e comprometida com o desenvolvimento do **Obras BSB**.
+Todos os objetivos da Sprint 1 foram concluídos com sucesso. O grupo manteve o engajamento, aprofundou os conhecimentos necessários e organizou os próximos passos do projeto com base nas análises realizadas. A equipe segue alinhada e comprometida com o desenvolvimento do **DF em obras**.
 
