@@ -44,7 +44,7 @@ async function main() {
       }
 
       pagina++;
-      await new Promise((resolve) => setTimeout(resolve, 500)); // Delay entre páginas
+      // await new Promise((resolve) => setTimeout(resolve, 500)); // Delay entre páginas
       continue;
     }
 
@@ -67,7 +67,7 @@ async function main() {
     console.log(
       `Pausa entre páginas por 30 segundos. Processadas ${obrasComGeometria.length} obras.`,
     );
-    await new Promise((resolve) => setTimeout(resolve, 500)); // Delay entre páginas
+    // await new Promise((resolve) => setTimeout(resolve, 500)); // Delay entre páginas
   }
 
   console.log('Salvando resultados...');
