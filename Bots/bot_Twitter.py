@@ -151,10 +151,19 @@ def run_bot(out_image_dir, out_data_dir):
                     print(f"[OK] Upload realizado: {media.media_id}")
 
                     prompt = (
-                        f"Crie uma mensagem criativa e em tom crítico para atrasos e obras cadastradas e não iniciadas é algo ruim também pois já receberam recurso mas não iniciaram, para acompanhar um grafico de reporte de obras do Distrito Federal. "
-                        f"Use os dados a seguir para embasar a mensagem:\n{csv_content}\n"
-                        "A mensagem deve ter no maximo 150 caracteres e direcionar para esse endereço https://unb-mds.github.io/DFemObras-2025.1/index.html."
-                    )
+    f"Crie uma mensagem crítica e bem humorada para acompanhar uma postagem sobre obras públicas no Distrito Federal. "
+    f"o gráfico é baseado nos seguintes dados:\n{csv_content}\n"
+    
+    "METADADOS - Situações das Obras: (use se relevante)\n"
+    "• Cadastrada: Possui identificador único, mas ainda não iniciou efetivamente\n"
+    "• Em execução: Possui autorização de início e não está paralisada\n"
+    "• Paralisada: Projeto/obra iniciados mas temporariamente suspensos\n"
+    "• Cancelada: Não há mais interesse em dar continuidade, sem funcionalidade\n"
+    "• Concluída: Possui termo de recebimento definitivo ou aceitação\n"
+    "• Inacabada: Intervenções não concluídas sem instrumentos vigentes\n"
+    
+    "A mensagem deve ter no máximo 150 caracteres e direcionar para esse endereço para obter mais informações https://unb-mds.github.io/DFemObras-2025.1/index.html. não use emojis"
+)
                     
                     print("Gerando mensagem...")
                     message = generate_message(cohere_client, prompt)
