@@ -1,45 +1,117 @@
 [
   {
-    "idUnico": "6450.53-56",
-    "nome": "Reforma do Museu de Valores do Banco Central do Brasil",
-    "cep": null,
-    "endereco": "SBS QD 03 BLOCO B",
-    "descricao": "Reforma e adequação do Museu de Valores e de áreas adjacentes, do Banco Central do Brasil em Brasília/DF",
-    "funcaoSocial": "A contratação permitirá a reforma do espaço destinado ao Museu de Valores que abrigará a nova museografia de acordo com as necessidades apontadas no Plano Museológico 2018-2022 que busca, entre outros pontos, promover a educação financeira da população brasileira.",
-    "metaGlobal": "Contribuição, por parte do Banco Central, de modo mais relevante no processo de promoção de educação financeira com a criação do primeiro museu, na América do Sul, dedicado à promoção da educação econômica da população.",
-    "dataInicialPrevista": "2022-08-15",
-    "dataFinalPrevista": "2025-01-24",
+    "idUnico": "4539.53-84",
+    "nome": "202111-22-Ronald 1",
+    "cep": "70067-901",
+    "endereco": "2021122-Ronald - Endereço Completo",
+    "descricao": "2021122-Ronald - Descrição do Projeto",
+    "funcaoSocial": "2021122-Ronald - Descrição Funç]ap Social",
+    "metaGlobal": "20211122-Ronald - Descrição Meta Global",
+    "dataInicialPrevista": "2021-12-10",
+    "dataFinalPrevista": "2021-12-10",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-08-01",
+    "dataCadastro": "2021-11-17",
     "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Concluída",
+    "natureza": "Projeto de Investimento em Infraestrutura",
+    "naturezaOutras": "outros",
+    "situacao": "Cadastrada",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
     "qdtEmpregosGerados": null,
     "descPopulacaoBeneficiada": null,
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
-    "isModeladaPorBim": true,
-    "dataSituacao": "2025-01-27",
+    "isModeladaPorBim": null,
+    "dataSituacao": "2021-11-17",
     "tomadores": [
       {
-        "nome": "BANCO CENTRAL DO BRASIL-ORC.FISCAL/SEG.SOCIAL",
-        "codigo": 25201
+        "nome": "FUND.UNIVERSIDADE FEDERAL VALE SAO FRANCISCO",
+        "codigo": 26230
       }
     ],
     "executores": [
       {
-        "nome": "BANCO CENTRAL DO BRASIL-ORC.FISCAL/SEG.SOCIAL",
-        "codigo": 25201
+        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+        "codigo": 308799
       }
     ],
     "repassadores": [
       {
-        "nome": "FUNDO DE DEFESA DOS DIREITOS DIFUSOS",
-        "codigo": 30905
+        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+        "codigo": 308799
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 45,
+        "descricao": "Desenvolvimento",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 38,
+        "descricao": "Saneamento",
+        "idTipo": 45
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 100000000
+      }
+    ],
+    "latitude": -15.814476668284687,
+    "longitude": -47.819404296871
+  },
+  {
+    "idUnico": "20285.53-58",
+    "nome": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "cep": "70.790-020",
+    "endereco": "902/904 - Asa Norte, Brasília - DF",
+    "descricao": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "funcaoSocial": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "metaGlobal": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "dataInicialPrevista": "2023-03-02",
+    "dataFinalPrevista": "2024-03-01",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-03-01",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Inativada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-03-01",
+    "tomadores": [
+      {
+        "nome": "COMANDO DO EXÉRCITO",
+        "codigo": 94
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DO EXÉRCITO",
+        "codigo": 94
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA DEFESA",
+        "codigo": 41066
       }
     ],
     "eixos": [
@@ -65,29 +137,29 @@
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 11285163.72
+        "valorInvestimentoPrevisto": 769000
       }
     ],
-    "latitude": -15.8032800064996,
-    "longitude": -47.8851
+    "latitude": -15.7811300064764,
+    "longitude": -47.89285
   },
   {
-    "idUnico": "101121.53-58",
-    "nome": "Contrato TT-793/2024 - obras e serviços relativos à coleta de dados de veículos pesados e Monitoramento de Operações através de Postos de Pesagem Mistos e Unidades Móveis Operacionais",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Construção, manutenção, conservação e execução de obras e serviços relativos à coleta de dados de veículos pesados e Monitoramento de Operações através de Postos de Pesagem Mistos – PPM e Unidades Móveis Operacionais - UMOs nos Estados da Paraiba, Pernambuco e Rio Grande do Norte - Lote 2",
-    "funcaoSocial": "Aumento da segurança viária e da durabilidade das rodovias, controlando o excesso de peso dos veículos e reduzindo sinistros e danos à infraestrutura.",
-    "metaGlobal": "Aumento da segurança viária e da durabilidade das rodovias, controlando o excesso de peso dos veículos e reduzindo sinistros e danos à infraestrutura.",
-    "dataInicialPrevista": "2025-01-14",
-    "dataFinalPrevista": "2030-01-14",
+    "idUnico": "44078.53-10",
+    "nome": "CPAC - Elaboração de projetos  para as instalações de recepção e preparação de amostras",
+    "cep": "73.310-970",
+    "endereco": "BR 020, Km 18, Rod. Brasília/Fortaleza, Zona Rural, Planaltina - DF",
+    "descricao": "Elaboração de projetos básicos e executivos de engenharia e arquitetura para a reforma e construção das instalações de recepção e preparação de amostras na Embrapa Cerrados",
+    "funcaoSocial": "Viabilizar soluções de pesquisa, desenvolvimento e inovação para a sustentabilidade da agricultura, em benefício da sociedade brasileira.",
+    "metaGlobal": "Elaboração de projetos básicos e executivos de engenharia e arquitetura para a reforma e construção das instalações de recepção e preparação de amostras na Embrapa Cerrados",
+    "dataInicialPrevista": "2024-11-01",
+    "dataFinalPrevista": "2025-05-26",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2025-11-04",
-    "especie": "Construção",
-    "natureza": "Obra",
+    "dataCadastro": "2024-10-21",
+    "especie": "Reforma",
+    "natureza": "Projeto",
     "naturezaOutras": null,
-    "situacao": "Em execução",
+    "situacao": "Concluída",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
     "qdtEmpregosGerados": null,
@@ -95,90 +167,23 @@
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
     "isModeladaPorBim": false,
-    "dataSituacao": "2025-01-10",
+    "dataSituacao": "2025-06-20",
     "tomadores": [
       {
-        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
-        "codigo": 54844
+        "nome": "EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA",
+        "codigo": 25
       }
     ],
     "executores": [
       {
-        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
-        "codigo": 54844
+        "nome": "EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA",
+        "codigo": 25
       }
     ],
     "repassadores": [
       {
-        "nome": "MINISTÉRIO DA INFRAESTRUTURA",
-        "codigo": 2846
-      }
-    ],
-    "eixos": [
-      {
-        "id": 4,
-        "descricao": "Social"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 37,
-        "descricao": "Infraestrutura Urbana e Mobilidade",
-        "idEixo": 4
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 83,
-        "descricao": "Corredor Viário",
-        "idTipo": 37
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 135383839.07
-      }
-    ],
-    "latitude": -8.08471000116351,
-    "longitude": -34.88679
-  },
-  {
-    "idUnico": "4048.53-80",
-    "nome": "OBRA DE REFORMA DO ACESSO PRINCIPAL DA FACULDADE DE CIÊNCIA DA INFORMAÇÃO",
-    "cep": "",
-    "endereco": "",
-    "descricao": "obra de reforma do acesso principal da Faculdade de Ciência da Informação, localizado no Campus Universitário Darcy Ribeiro, da Universidade de Brasília, em Brasília - DF",
-    "funcaoSocial": "A obra se refere à reforma com o propósito de criar um espaço de convivência e adequar o acesso principal da Faculdade de Ciência da Informação – FCI às normas de acessibilidade.\nA proposta para o espaço de convivência foi desenvolvida utilizando mobiliário adequado ao uso proposto e composto por estante para publicações, bancos para convívio e apoio à provável plateia, mesas de trabalho para apoio de computadores e materiais de trabalho, assim como bancada e palco.\nPara a adequação à acessibilidade universal ao setor do prédio, foi proposta a instalação de duas plataformas, sendo uma plataforma inclinada, vencendo o desnível da porta de acesso ao térreo, e outra vertical, para acesso ao mezanino. Ademais, ainda será instalado um corrimão central na escada de acesso para atender à exigência da NBR 9.050/2020.",
-    "metaGlobal": "A obra se refere à reforma com o propósito de criar um espaço de convivência e adequar o acesso principal da Faculdade de Ciência da Informação – FCI às normas de acessibilidade.\nA proposta para o espaço de convivência foi desenvolvida utilizando mobiliário adequado ao uso proposto e composto por estante para publicações, bancos para convívio e apoio à provável plateia, mesas de trabalho para apoio de computadores e materiais de trabalho, assim como bancada e palco.\nPara a adequação à acessibilidade universal ao setor do prédio, foi proposta a instalação de duas plataformas, sendo uma plataforma inclinada, vencendo o desnível da porta de acesso ao térreo, e outra vertical, para acesso ao mezanino. Ademais, ainda será instalado um corrimão central na escada de acesso para atender à exigência da NBR 9.050/2020.",
-    "dataInicialPrevista": "2021-01-25",
-    "dataFinalPrevista": "2021-10-25",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-10-05",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": "",
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": "Justifica-se pela necessidade de adequar o acesso à Faculdade de Ciência da Informação – FCI a fim de promover acessibilidade à edificação, conforme normatização atual, especialmente a NBR 9.050/2020.\nPor tal motivo, a obra foi contemplada no Plano de Obras da Universidade de Brasília, aprovado pelo Conselho de Administração, no uso de suas atribuições, em sua 392ª Reunião Ordinária, realizada em 27 de junho de 2019 (23106.075169/2019-59, documento SEI 4026643).",
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-10-05",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
+        "nome": "MINISTERIO DA AGRICULTURA, PECUARIA E ABASTECIMENTO",
+        "codigo": 16701716003686
       }
     ],
     "eixos": [
@@ -189,43 +194,43 @@
     ],
     "tipos": [
       {
-        "id": 6,
-        "descricao": "Assistência Social",
+        "id": 5,
+        "descricao": "Administrativo",
         "idEixo": 1
       }
     ],
     "subTipos": [
       {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
+        "id": 90,
+        "descricao": "Preservação do Patrimônio",
         "idTipo": 5
       }
     ],
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 0
+        "valorInvestimentoPrevisto": 49973.53
       }
     ],
-    "latitude": -15.760730006455,
-    "longitude": -47.86746
+    "latitude": -15.6020520990034,
+    "longitude": -47.7168332520646
   },
   {
-    "idUnico": "6424.53-90",
-    "nome": "Contratação de empresa especializada para obra de ampliação do hotel de trânsito de Subtenentes e Sargentos, em Brasília-DF",
-    "cep": "70.297-400",
-    "endereco": "Hotel de Trânsito de Subtenentes e Sragentos - Setor Militar Urbano - Brasília, DF",
-    "descricao": "Contratação de empresa especializada para obra de ampliação do hotel de trânsito de Subtenentes e Sargentos, em Brasília-DF",
-    "funcaoSocial": "A ampliação será realizada junto ao prédio existente do HTS e implicará na readequação da rede de infraestrutura. A referida ampliação do Hotel de Trânsito para Subtenentes e Sargentos – HTS, localizado em Brasília/DF, amplia em 11 suítes, mobiliadas, sendo uma adaptada para PCD (pessoa com  deficiência), pois este hotel tem uma demanda reprimida, haja vista a carência que possui o efetivo da Força que busca tratamentos médicos nesta cidade e não encontram hospedagem. É\nimportante ressaltar que a guarnição de Brasília é muito solicitada, devido à quantidade de especialidades médicas. Além disso, Brasília é um importante polo turístico, 4º maior do País, segundo a Embratur, recebendo diversos militares, principalmente aqueles que aqui já serviram e que são novamente atraídos para passar períodos de lazer na cidade. \n\nTendo o conhecimento de que, o Hotel de Trânsito cumpre o objetivo de proporcionar apoio às famílias militares tanto em trânsito quanto em férias, faz-se de grande importância a ampliação do HTS em Brasília, proporcionando um melhor apoio aos militares e seus dependentes quanto a hospedagem, seja ela recreativa, funcional ou para fins de tratamento de saúde. Atualmente o HTS conta apenas com 8 (oito) unidades, localizado no Setor Militar Urbano, Brasília DF.\n",
-    "metaGlobal": "Ampliação do Hotel de Trânsito de Subtenentes e Sargentos.",
-    "dataInicialPrevista": "2022-08-01",
-    "dataFinalPrevista": "2023-12-31",
+    "idUnico": "5584.53-19",
+    "nome": "Adequação da DCEM, 3º piso, Bloco D, QGEx do Setor Militar Urbano, na cidade de Brasília/DF",
+    "cep": "",
+    "endereco": "",
+    "descricao": "Adequação da DCEM, 3º piso, Bloco D, QGEx do Setor Militar Urbano, na cidade de Brasília/DF",
+    "funcaoSocial": "A necessidade de adequação do pavimento ocupado pela DCEM justifica-se pelas\ninstalações físicas serem antigas, desatualizadas, resultado de reformas pontuais,\nexecutadas na Diretoria ao longo dos anos, e que por falta de uniformidade podem vir\na comprometer a segurança, a economia, e a integral utilização da edificação.\nNesse contexto, esse estudo visa atender à necessidade de atualização das\ninstalações sanitárias elétricas, de incêndio, de condicionamento de ar, dentre outras\ndisciplinas, bem como de adequar o espaço da Diretoria ao pleno funcionamento das\nseções que a compõe e seu crescente número de servidores, dentre civis e militares\ndo DCEM, 3º Piso, Bloco D, QGex do Setor Militar Urbano, na cidade de Brasília/DF.",
+    "metaGlobal": "Adequação da DCEM, 3º piso, Bloco D, QGEx do Setor Militar Urbano, na cidade de Brasília/DF",
+    "dataInicialPrevista": "2022-02-14",
+    "dataFinalPrevista": "2023-11-06",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-07-25",
-    "especie": "Ampliação",
+    "dataCadastro": "2022-02-01",
+    "especie": "Construção",
     "natureza": "Obra",
-    "naturezaOutras": null,
+    "naturezaOutras": "",
     "situacao": "Concluída",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
@@ -233,8 +238,8 @@
     "descPopulacaoBeneficiada": null,
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
-    "isModeladaPorBim": true,
-    "dataSituacao": "2023-07-19",
+    "isModeladaPorBim": null,
+    "dataSituacao": "2023-11-06",
     "tomadores": [
       {
         "nome": "COMANDO DO EXÉRCITO",
@@ -255,241 +260,14 @@
     ],
     "eixos": [
       {
-        "id": 3,
-        "descricao": "Econômico"
-      },
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      },
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 30,
-        "descricao": "Desenvolvimento",
-        "idEixo": 3
-      },
-      {
-        "id": 30,
-        "descricao": "Desenvolvimento",
-        "idEixo": 3
-      },
-      {
-        "id": 30,
-        "descricao": "Desenvolvimento",
-        "idEixo": 3
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 66,
-        "descricao": "Refino - Modernização e Ampliação",
-        "idTipo": 30
-      },
-      {
-        "id": 75,
-        "descricao": "Urbanização",
-        "idTipo": 30
-      },
-      {
-        "id": 45,
-        "descricao": "Turismo",
-        "idTipo": 30
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 2376298.36
-      }
-    ],
-    "latitude": -15.7704300064652,
-    "longitude": -47.93219
-  },
-  {
-    "idUnico": "5124.53-53",
-    "nome": "26.782.3006.13XJ.0031",
-    "cep": "70040-902",
-    "endereco": " BR-262/ BR-010",
-    "descricao": "AdequaÃ§Ã£o De Trecho RodoviÃ¡rio - Entrocamento Br-494/Mg-423 (Nova Serrana) - Uberaba - Na Br-262/Mg",
-    "funcaoSocial": "Preservar vidas e promover o desenvolvimento sustentÃ¡vel do paÃ­s priorizando a seguranÃ§a, as boas condiÃ§Ãµes de trafegabilidade e a otimizaÃ§Ã£o da logÃ­stica dos transportes, elevando assim o nÃ­vel de serviÃ§o das vias.",
-    "metaGlobal": "Garantir dotação orçamentária para os contratos que envolvem 19.78 km desta rúbrica.",
-    "dataInicialPrevista": "2013-04-08",
-    "dataFinalPrevista": "2024-10-04",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-12-09",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Concluída",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2025-11-17",
-    "tomadores": [
-      {
-        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
-        "codigo": 54844
-      }
-    ],
-    "executores": [
-      {
-        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
-        "codigo": 54844
-      }
-    ],
-    "repassadores": [],
-    "eixos": [
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 25,
-        "descricao": "Rodovia",
-        "idEixo": 3
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 4,
-        "descricao": "Acessos Terrestres",
-        "idTipo": 25
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 103576455.27
-      }
-    ]
-  },
-  {
-    "idUnico": "43986.53-49",
-    "nome": "Persianas Metálicas (Brises)",
-    "cep": "70.675-731",
-    "endereco": "Av. das Jaqueiras s/n, Sudoeste",
-    "descricao": "Tendo em vista o planejamento para construção, revitalização de diversos ambientes médico-hospitalares deste hospital constantes no PAC (Plano Anual de Contratação) e\ntambém contando com o planejamento de reestruturação dos andares de internação; a revitalização da fachada do prédio lâmina do HFA tem como objetivo a adequação das instalações físicas às normas vigentes como a Resolução RDC nº 50, de 21 de fevereiro de 2002, a abertura do atual processo licitatório tem por finalidade propiciar a condição necessária para a contração de empresa especializada para realizar execução de serviços de engenharia de adequação dos brises dos do 8º, 9º e 10º andar e pertinente implantação do projeto de ancoragem (linha de vida) necessário a realização dos serviços.",
-    "funcaoSocial": "Tendo em vista o planejamento para construção, revitalização de diversos ambientes médico-hospitalares deste hospital constantes no PAC (Plano Anual de Contratação) e\ntambém contando com o planejamento de reestruturação dos andares de internação; a revitalização da fachada do prédio lâmina do HFA tem como objetivo a adequação das instalações físicas às normas vigentes como a Resolução RDC nº 50, de 21 de fevereiro de 2002, a abertura do atual processo licitatório tem por finalidade propiciar a condição necessária para a contração de empresa especializada para realizar execução de serviços de engenharia de adequação dos brises dos do 8º, 9º e 10º andar e pertinente implantação do projeto de ancoragem (linha de vida) necessário a realização dos serviços.",
-    "metaGlobal": "Tendo em vista o planejamento para construção, revitalização de diversos ambientes médico-hospitalares deste hospital constantes no PAC (Plano Anual de Contratação) e\ntambém contando com o planejamento de reestruturação dos andares de internação; a revitalização da fachada do prédio lâmina do HFA tem como objetivo a adequação das instalações físicas às normas vigentes como a Resolução RDC nº 50, de 21 de fevereiro de 2002, a abertura do atual processo licitatório tem por finalidade propiciar a condição necessária para a contração de empresa especializada para realizar execução de serviços de engenharia de adequação dos brises dos do 8º, 9º e 10º andar e pertinente implantação do projeto de ancoragem (linha de vida) necessário a realização dos serviços.",
-    "dataInicialPrevista": "2024-12-20",
-    "dataFinalPrevista": "2025-09-20",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2024-10-17",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Em execução",
-    "descPlanoNacionalPoliticaVinculado": "Tendo em vista o planejamento para construção, revitalização de diversos ambientes médico-hospitalares deste hospital constantes no PAC (Plano Anual de Contratação) e\ntambém contando com o planejamento de reestruturação dos andares de internação; a revitalização da fachada do prédio lâmina do HFA tem como objetivo a adequação das instalações físicas às normas vigentes como a Resolução RDC nº 50, de 21 de fevereiro de 2002, a abertura do atual processo licitatório tem por finalidade propiciar a condição necessária para a contração de empresa especializada para realizar execução de serviços de engenharia de adequação dos brises dos do 8º, 9º e 10º andar e pertinente implantação do projeto de ancoragem (linha de vida) necessário a realização dos serviços.",
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2024-12-20",
-    "tomadores": [
-      {
-        "nome": "FUNDO DE ADMINISTRACAO DO HFA",
-        "codigo": 52002
-      }
-    ],
-    "executores": [
-      {
-        "nome": "FUNDO DE ADMINISTRACAO DO HFA",
-        "codigo": 52002
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDO DO MINISTERIO DA DEFESA",
-        "codigo": 52001
-      }
-    ],
-    "eixos": [
-      {
-        "id": 4,
-        "descricao": "Social"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 39,
-        "descricao": "Saúde",
-        "idEixo": 4
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 74,
-        "descricao": "Unidades de Atenção Especializada de Saúde",
-        "idTipo": 39
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 1565000
-      }
-    ],
-    "latitude": -15.8010300064973,
-    "longitude": -47.93463
-  },
-  {
-    "idUnico": "104.53-79",
-    "nome": "contrato nº 11/2020 - reforma e ampliação do 1º GBM.",
-    "cep": "1",
-    "endereco": "",
-    "descricao": "Contrato nº 11/2020 - Execução da obra de reforma e ampliação do 1º Grupamento de Bombeiro Militar - 1º GBM,  compreendendo reforço estrutural, demolição de lajes, fornecimento e instalação de subestação de média tensão, entre outros serviços de obra, situado no Setor de Administração Federal Norte - SAFN, Quadra 04, Lote 02, Brasília - DF.",
-    "funcaoSocial": "a obra possibilitará melhores  atividades de salvamento.",
-    "metaGlobal": "adequar a estrutura do 1º GBM à demanda atual da Corporação.",
-    "dataInicialPrevista": "2020-04-01",
-    "dataFinalPrevista": "2023-04-01",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-02-01",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-02-01",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "CORPO DE BOMBEIROS MILITAR DO DISTRITO FEDERAL",
-        "codigo": 8977914000119
-      }
-    ],
-    "repassadores": [],
-    "eixos": [
-      {
         "id": 1,
         "descricao": "Administrativo"
       }
     ],
     "tipos": [
       {
-        "id": 1,
-        "descricao": "Segurança Pública",
+        "id": 5,
+        "descricao": "Administrativo",
         "idEixo": 1
       }
     ],
@@ -503,97 +281,25 @@
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 2009850.45
+        "valorInvestimentoPrevisto": 8691308
       }
     ],
-    "latitude": -15.8009800064972,
-    "longitude": -47.85284
+    "latitude": -15.7727900064677,
+    "longitude": -47.91729
   },
   {
-    "idUnico": "370.53-30",
-    "nome": "PROC: 100.144/2020-31 - Reforma para Adequação do Sistema de Drenagem  e Impermeabilização - Fiocruz GEREB",
-    "cep": "1",
-    "endereco": "Avenida L3 Norte, Campus Universitário Darcy Ribeiro - Gleba A, SG 10 - Brasília/DF",
-    "descricao": "Contratação de Obra de Reforma para Adequação do Sistema de Drenagem de Água Pluviais e Impermeabilização no Edifício da Gerência Regional de Brasília (GEREB) Fiocruz Brasília/DF\n",
-    "funcaoSocial": "Intervenção na garagem e no acesso principal. Acesso seguro aos trabalhadores responsáveis pela as reformas de drenagem e impermeabilização, acesso seguro e proteção aos usuários da edificação. Adequações quanto à acessibilidade à edificação tornando-a acessível para pessoas com deficiências  ou com mobilidade reduzida.  ",
-    "metaGlobal": "Ressalta-se que, essa melhoria irá acarretar um melhor funcionamento da rede de Drenagem e Impermeabilização e promover a economia na manutenção e operacionalização",
-    "dataInicialPrevista": "2020-09-14",
-    "dataFinalPrevista": "2021-04-26",
+    "idUnico": "51946.53-11",
+    "nome": "CONSTRUÇÃO DO 2º BATALHÃO DE POLÍCIA MILITAR DO DISTRITO FEDERAL",
+    "cep": "72.130-049",
+    "endereco": "ÁREA ESPECIAL Nº 44, SETOR G NORTE, TAGUATINGA NORTE",
+    "descricao": "CONSTRUÇÃO DO 2º BATALHÃO DE POLÍCIA MILITAR DO DISTRITO FEDERAL.",
+    "funcaoSocial": "SEGURANÇA PÚBLICA",
+    "metaGlobal": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA CONSTRUÇÃO DA SEDE DO 2º BATALHAO DE POLÍCIA MILITAR DO DISTRITO FEDERAL.",
+    "dataInicialPrevista": "2025-03-12",
+    "dataFinalPrevista": "2025-12-31",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2021-03-16",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": "",
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-03-16",
-    "tomadores": [
-      {
-        "nome": "FUNDAÇÃO OSWALDO CRUZ",
-        "codigo": 315
-      }
-    ],
-    "executores": [
-      {
-        "nome": "FUNDAÇÃO OSWALDO CRUZ",
-        "codigo": 315
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "MINISTÉRIO DA SAÚDE",
-        "codigo": 304
-      }
-    ],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 4,
-        "descricao": "Saúde",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 5
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 133263.72
-      }
-    ],
-    "latitude": -15.7709200064657,
-    "longitude": -47.87112
-  },
-  {
-    "idUnico": "6116.53-00",
-    "nome": "15º BPM PMDF - Estrutural",
-    "cep": "71.255-010",
-    "endereco": " Setor Central, Área Especial 01 da Cidade satélite da Estrutural - RA XXV",
-    "descricao": "Execução da obra para construção do edifício Sede do 15º Batalhão da Polícia Militar do Distrito Federal, no imóvel situado no Setor Central, Área Especial 01 da Cidade satélite da Estrutural - RA XXV.",
-    "funcaoSocial": "A construção da nova Sede do 15º Batalhão da Polícia Militar do Distrito Federal, contribuirá positivamente para a segurança pública da cidade Estrutural e entorno, bem como do Distrito Federal.",
-    "metaGlobal": "Construção do edifício do 15º BPM.\nÁREA CONSTRUÍDA 981,22m²\nTOTAL DE VAGAS 40\nÁREA DO TERRENO 1644,80m²",
-    "dataInicialPrevista": "2022-06-01",
-    "dataFinalPrevista": "2023-06-01",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2022-05-23",
+    "dataCadastro": "2025-03-12",
     "especie": "Construção",
     "natureza": "Obra",
     "naturezaOutras": null,
@@ -605,7 +311,7 @@
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
     "isModeladaPorBim": false,
-    "dataSituacao": "2022-05-23",
+    "dataSituacao": "2025-03-12",
     "tomadores": [
       {
         "nome": "Polícia Militar do Distrito Federal",
@@ -632,6 +338,351 @@
     ],
     "tipos": [
       {
+        "id": 1,
+        "descricao": "Segurança Pública",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 5
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 51767.99
+      }
+    ],
+    "latitude": -15.7963300064924,
+    "longitude": -48.05621
+  },
+  {
+    "idUnico": "10835.53-80",
+    "nome": "CONSTRUÇÃO DA POLICLINICA DA PCDF",
+    "cep": null,
+    "endereco": null,
+    "descricao": "Construção da nova Policlínica da Polícia Civil do Distrito Federal.",
+    "funcaoSocial": "Atualmente a Policlínica atende diretamente 3957 servidores da carreira policial e 191 servidores da carreira de apoio,\ntotalizando 4148 servidores, além de atendimento subsidiário a aproximadamente 420 servidores terceirizados. Não há previsão de atendimento à população em geral. O impacto indireto nos habitantes do Distrito Federal se dará\npela redução da taxa de absenteísmo dos policiais civis e, consequentemente,de uma melhor prestação de serviço(texto completo na Justificativa Completa).. A Policlínica da Polícia Civil do Distrito Federal foi originalmente concebida com ênfase na atividade pericial.\nNo entanto, atua intensamente na assistência ao policial civil não só no atendimento médico e pericial, como também nos serviços de psicologia, odontologia, assistência social, fisioterapia e reabilitação física. Funciona atualmente em uma antiga delegacia, que fora reformada para abrigar suas instalações(texto completo na Justificativa Completa).. A nova sede da Policlínica da Polícia Civil do Distrito Federal é um anseio dos servidores policiais que\naguardam há muito tempo um espaço adequado para receber uma atenção à saúde de forma rápida, confortável e eficaz.\nEspera-se com a nova sede, que todos os processos e atendimentos desenvolvidos atualmente sejam otimizados e que novos atendimentos sejam realizados. Espera-se que a localização da nova sede seja mais acessível aos policiais(texto completo na Justificativa Completa).",
+    "metaGlobal": "Construção da nova Policlínica da Polícia Civil do Distrito Federal.",
+    "dataInicialPrevista": "2022-12-19",
+    "dataFinalPrevista": "2027-12-16",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2022-10-20",
+    "especie": "Construção",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": "99",
+    "descPopulacaoBeneficiada": "SERVIDORES ATIVOS E INATIVOS, CARREIRA DE APOIO E TERCEIRIZADOS DA PCDF",
+    "populacaoBeneficiada": "8000",
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": true,
+    "dataSituacao": "2022-10-20",
+    "tomadores": [],
+    "executores": [
+      {
+        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
+        "codigo": 37115482000135
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA JUSTIÇA E SEGURANÇA PÚBLICA",
+        "codigo": 235881
+      }
+    ],
+    "eixos": [
+      {
+        "id": 1,
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 1,
+        "descricao": "Segurança Pública",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 5
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 39717442.17
+      }
+    ],
+    "latitude": -15.81011,
+    "longitude": -47.92953
+  },
+  {
+    "idUnico": "228.53-10",
+    "nome": "Reforma UOP Planaltina",
+    "cep": "1",
+    "endereco": "BR 020 Km 37,7",
+    "descricao": "Contratação de empresa especializada para prestação de serviço de engenharia, para reforma do imóvel onde funciona a 2ª Delegacia da PRF/DF - Planaltina, localizada na BR-020, Km 37.",
+    "funcaoSocial": "Melhorar o ambiente de trabalho dos servidores e proporcionar mais conforto ao usuário, promovendo a segurança viária da região, bem como a fiscalização das vias e prevenção de acidentes.",
+    "metaGlobal": "Promoção da segurança viária da região, bem como a fiscalização das vias e prevenção de acidentes.",
+    "dataInicialPrevista": "2021-03-15",
+    "dataFinalPrevista": "2021-04-15",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-02-23",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Inativada",
+    "descPlanoNacionalPoliticaVinculado": "A demanda aqui formalizada se alinha com os seguintes Objetivos Estratégicos do Órgão: OE13 (Fortalecer a imagem institucional da PRF), OE17 (Potencializar o bem-estar, a motivação e desempenho dos servidores) e OE20 (Prover meios e infraestrutura adequada ao desempenho das atividades).",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2021-02-23",
+    "tomadores": [
+      {
+        "nome": "SUPERINTENDÊNCIA DA POLÍCIA RODOVIÁRIA FEDERAL NO DISTRITO FEDERAL",
+        "codigo": 13428
+      }
+    ],
+    "executores": [
+      {
+        "nome": "SUPERINTENDÊNCIA DA POLÍCIA RODOVIÁRIA FEDERAL NO DISTRITO FEDERAL",
+        "codigo": 13428
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+        "codigo": 316
+      }
+    ],
+    "eixos": [
+      {
+        "id": 1,
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 1,
+        "descricao": "Segurança Pública",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 5
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 93543.62
+      }
+    ],
+    "latitude": -15.5818800062694,
+    "longitude": -47.53575
+  },
+  {
+    "idUnico": "440.53-82",
+    "nome": "CONSTRUÇÃO DE NOVA SEDE DO INSTITUTO MÉDICO LEGAL",
+    "cep": "1",
+    "endereco": "SPO, CJ A LOTE 23, COMPLEXO DA PCDF.",
+    "descricao": "CONSTRUÇÃO DE SEDE DO IML/PCDF",
+    "funcaoSocial": "AUXÍLIAR NO TRABALHO TÉCNICO/INVESTIGATIVO DA PCDF.",
+    "metaGlobal": "CONSTRUÇÃO DO NOVO IML/PCDF",
+    "dataInicialPrevista": "2021-03-31",
+    "dataFinalPrevista": "2022-06-30",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-03-19",
+    "especie": "Construção",
+    "natureza": "Obra",
+    "naturezaOutras": "",
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2021-03-19",
+    "tomadores": [
+      {
+        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
+        "codigo": 37115482000135
+      }
+    ],
+    "executores": [
+      {
+        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
+        "codigo": 37115482000135
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "ESTATAIS DO MINISTERIO DA FAZENDA",
+        "codigo": 91010
+      }
+    ],
+    "eixos": [
+      {
+        "id": 1,
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 1,
+        "descricao": "Segurança Pública",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 5
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1
+      }
+    ],
+    "latitude": -15.809340006506,
+    "longitude": -47.92857
+  },
+  {
+    "idUnico": "21751.53-90",
+    "nome": "obra de reforma do Teatro Helena Barcelos",
+    "cep": null,
+    "endereco": null,
+    "descricao": "Reforma do Teatro Helena Barcelos, localizado no prédio Oficinas Especiais, no Setor Centro do Campus Universitário Darcy Ribeiro, da Universidade de Brasília, em Brasília/D",
+    "funcaoSocial": "A necessidade em tela decorre de demanda formulada pelo Instituto de Artes com histórico descrito no documento SEI N. 5787223, constante nos autos do processo N. 23106.097036/2020-77.\n\nO Teatro é espaço didático necessário ao ensino de Artes Cênicas em sua plenitude e é também espaço cultural que permite atender a comunidade. A reivindicação pela adequação do espaço é antiga, pois o espaço carece de infraestrutura necessária para seu efetivo funcionamento e está desativado há anos.\n\nO espaço, localizado dentro do prédio Oficinas Especiais, apresenta muitos problemas de infiltração, mofo, banheiros deteriorados, os mecanismos de movimentação do palco e das varas cênicas não funcionam, a iluminação é insuficiente, não há tratamento acústico, as instalações existentes são insuficientes para a necessidade, entre outros.\n\nSendo assim, o teatro requer o redimensionamento das instalações elétricas, eletrônicas, hidrossanitárias, PCI, reforço estrutural, climatização, tratamento acústico, adequações na arquitetura para que o espaço seja seguro, acessível e compatível com a concentração de público. Faz-se necessário a criação de infraestrutura cênica para retomar o uso do espaço.\n\nEm 2019 foi feita contratação de obra para as adequações de segurança contra incêndio e pânico, mas a obra não foi concluída.\n\nSendo assim, para suprir por completo as necessidades espaciais e de segurança, o escopo da contratação tratada neste documento abarcará na reforma do Teatro as adequações para regularização do prédio Oficinas Especiais junto ao Corpo de Bombeiros Militar- CBMDF.",
+    "metaGlobal": "A necessidade em tela decorre de demanda formulada pelo Instituto de Artes com histórico descrito no documento SEI N. 5787223, constante nos autos do processo N. 23106.097036/2020-77.\n\nO Teatro é espaço didático necessário ao ensino de Artes Cênicas em sua plenitude e é também espaço cultural que permite atender a comunidade. A reivindicação pela adequação do espaço é antiga, pois o espaço carece de infraestrutura necessária para seu efetivo funcionamento e está desativado há anos.\n\nO espaço, localizado dentro do prédio Oficinas Especiais, apresenta muitos problemas de infiltração, mofo, banheiros deteriorados, os mecanismos de movimentação do palco e das varas cênicas não funcionam, a iluminação é insuficiente, não há tratamento acústico, as instalações existentes são insuficientes para a necessidade, entre outros.\n\nSendo assim, o teatro requer o redimensionamento das instalações elétricas, eletrônicas, hidrossanitárias, PCI, reforço estrutural, climatização, tratamento acústico, adequações na arquitetura para que o espaço seja seguro, acessível e compatível com a concentração de público. Faz-se necessário a criação de infraestrutura cênica para retomar o uso do espaço.\n\nEm 2019 foi feita contratação de obra para as adequações de segurança contra incêndio e pânico, mas a obra não foi concluída.\n\nSendo assim, para suprir por completo as necessidades espaciais e de segurança, o escopo da contratação tratada neste documento abarcará na reforma do Teatro as adequações para regularização do prédio Oficinas Especiais junto ao Corpo de Bombeiros Militar- CBMDF.",
+    "dataInicialPrevista": "2023-05-22",
+    "dataFinalPrevista": "2023-11-22",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-05-08",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "A obra está prevista no Plano de Obras 2021 da Universidade de Brasília, aprovado na 405ª Reunião do CAD por meio da RESOLUÇÃO DO CONSELHO DE ADMINISTRAÇÃO Nº 0032/2021 (6781685), constante nos autos do  SEI 23106.065389/2021-99. ",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-05-08",
+    "tomadores": [],
+    "executores": [
+      {
+        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
+        "codigo": 26271
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
+        "codigo": 26271
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 3891249.91
+      }
+    ],
+    "latitude": -15.7657500064603,
+    "longitude": -47.87161
+  },
+  {
+    "idUnico": "19979.53-65",
+    "nome": "Escadas Externas de Emergência do Bloco \"U\" da Esplanada dos Ministérios, Brasília/DF",
+    "cep": "70.065-900",
+    "endereco": "Bloco \"U\" Esplanada dos Ministérios Brasilia/DF",
+    "descricao": "Obra de construção das Duas Escadas Externas de Emergência do Bloco “U” da Esplanada dos Ministérios, em Brasília – DF,",
+    "funcaoSocial": "A construção das Duas Escadas Externas de Emergência, do Bloco “U” da Esplanada dos Ministérios, em Brasília/DF,  objetiva atender a necessidade de dotar a edificação de mais segurança contra incêndios e atender notificações do Corpo de Bombeiro Militar do Distrito Federal e da Secretária de Estado de Defesa Civil do Distrito Federal, quando da realização de vistorias de rotinas no prédio, uma vez que as escadas internas de segurança enclausuradas existentes no edifício  não atendem mais as exigências da legislação;\n\nDesta forma,  a edificação será dotada de duas rotas de fuga, seguras, externamente para evacuação dos habitantes, quando da ocorrência de um incêndio ou princípio de incêndio (com presença de fumaça), conforme existentes nos demais edifícios sediados na Esplanada  dos Ministérios.\n\nAssim, deverão ser edificadas, de conformidade com a Norma Técnica n° 010/2015 - CBMDF - Saídas de Emergência, que tem por objetivo estabelecer os requisitos necessários ao dimensionamento das saídas de emergência, a fim de garantir o abandono seguro da edificação pela população, em situação de incêndio ou pânico, e da mesma forma permitir o acesso aos bombeiros para as ações de combate a incêndio e salvamento, atendendo ao previsto no Regulamento de Segurança Contra Incêndio e Pânico do Distrito Federal (RSIP-DF), aprovado pelo Decreto nº 21.361, de 20 de julho de 2000.",
+    "metaGlobal": "Construção das Duas Escadas Externas de Emergência, do Bloco “U” da Esplanada dos Ministérios, em Brasília/DF, que objetiva atender a necessidade de dotar a edificação de mais segurança contra incêndios e atender notificações do Corpo de Bombeiro Militar do Distrito Federal e da Secretária de Estado de Defesa Civil do Distrito Federal,",
+    "dataInicialPrevista": "2023-04-03",
+    "dataFinalPrevista": "2023-11-03",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-02-07",
+    "especie": "Construção",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-02-07",
+    "tomadores": [],
+    "executores": [
+      {
+        "nome": "MINISTÉRIO DE MINAS E ENERGIA",
+        "codigo": 2852
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DE MINAS E ENERGIA",
+        "codigo": 2852
+      }
+    ],
+    "eixos": [
+      {
+        "id": 1,
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
         "id": 5,
         "descricao": "Administrativo",
         "idEixo": 1
@@ -647,72 +698,10 @@
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 5431155.55
+        "valorInvestimentoPrevisto": 7500000
       }
     ],
-    "latitude": -15.7785400064737,
-    "longitude": -47.99205
-  },
-  {
-    "idUnico": "87035.53-09",
-    "nome": "Reconstrução CAIC Castello Branco - Distrito Federal - DF",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Reconstrução CAIC Castello Branco - Distrito Federal - DF Escola - Projeto Próprio",
-    "funcaoSocial": "Reconstrução CAIC Castello Branco - Distrito Federal - DF",
-    "metaGlobal": "Escola - Projeto Próprio",
-    "dataInicialPrevista": "2020-10-27",
-    "dataFinalPrevista": "2025-12-10",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2025-07-28",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": "Obras 2",
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2025-07-28",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO",
-        "codigo": 253
-      }
-    ],
-    "repassadores": [],
-    "eixos": [
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 22,
-        "descricao": "Infraestrutura Hídrica, Portos, Hidrovia",
-        "idEixo": 3
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 36,
-        "descricao": "Dragagem, Derrocamento e Associações",
-        "idTipo": 22
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 0.01
-      }
-    ],
-    "latitude": -15.77972,
-    "longitude": -47.92972
+    "latitude": -15.7957300064917,
+    "longitude": -47.86865
   }
 ]
