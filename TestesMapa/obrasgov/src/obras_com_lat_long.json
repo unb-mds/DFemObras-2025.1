@@ -637,46 +637,46 @@
     "longitude": -47.8595166550233
   },
   {
-    "idUnico": "8421.53-89",
-    "nome": "Reforma no acesso da pista de atletismo",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Reforma do acesso à pista de atletismo com reforço na fundação",
-    "funcaoSocial": "Atividades dos militares e beneficiários do PROFESP",
-    "metaGlobal": "Melhoria da área de esportes do Grupamento de Fuzileiros Navais de Brasília para uso do PROFESP",
-    "dataInicialPrevista": "2022-09-30",
-    "dataFinalPrevista": "2022-10-14",
+    "idUnico": "21335.53-99",
+    "nome": "Reforma do Centro de Múltiplas Funções do Campus São Sebastião",
+    "cep": "71.697-040",
+    "endereco": "Área Especial 2, S/N, Bairro São Bartolomeu - São Sebastião/DF",
+    "descricao": "Reforma do prédio de múltiplas funções do campus São Sebastião que compreende uma área de 523 m². A reforma compreenderá o telhado, a troca de uma viga que foi quebrada com a queda de uma área e ajustes no piso, instalações elétricas e hidráulicas. ",
+    "funcaoSocial": "melhorar a qualidade do ensino na unidade através de laboratórios e salas ludos",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
+    "dataInicialPrevista": "2023-12-01",
+    "dataFinalPrevista": "2024-07-31",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-09-27",
+    "dataCadastro": "2023-04-14",
     "especie": "Reforma",
     "natureza": "Obra",
     "naturezaOutras": null,
-    "situacao": "Em execução",
-    "descPlanoNacionalPoliticaVinculado": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n",
     "uf": "DF",
     "qdtEmpregosGerados": null,
     "descPopulacaoBeneficiada": null,
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
     "isModeladaPorBim": false,
-    "dataSituacao": "2022-09-30",
+    "dataSituacao": "2023-04-14",
     "tomadores": [
       {
-        "nome": "COMANDO DA MARINHA",
-        "codigo": 185
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
       }
     ],
     "executores": [
       {
-        "nome": "COMANDO DA MARINHA",
-        "codigo": 185
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
       }
     ],
     "repassadores": [
       {
-        "nome": "CAMARA DOS DEPUTADOS",
-        "codigo": 1000
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
       }
     ],
     "eixos": [
@@ -687,25 +687,25 @@
     ],
     "tipos": [
       {
-        "id": 38,
-        "descricao": "Esporte",
+        "id": 46,
+        "descricao": "Educação",
         "idEixo": 4
       }
     ],
     "subTipos": [
       {
-        "id": 75,
-        "descricao": "Urbanização",
-        "idTipo": 38
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
       }
     ],
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 17400
+        "valorInvestimentoPrevisto": 1000000
       }
     ],
-    "latitude": -15.783620006479,
-    "longitude": -47.8608
+    "latitude": -15.8921200065933,
+    "longitude": -47.7786
   }
 ]
