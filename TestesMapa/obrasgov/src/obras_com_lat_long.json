@@ -349,71 +349,76 @@
     "longitude": -47.839404296873
   },
   {
-    "idUnico": "16449.53-65",
-    "nome": "REFORMA CENTRO EDUCACIONAL OSÓRIO BACHIN",
-    "cep": null,
-    "endereco": null,
-    "descricao": "020-Reformar escola ou creche",
-    "funcaoSocial": "Alunos. - redução das desigualdades educacionais regionais;\n- demandas por infraestrutura e manutenção, por meio da aquisição de serviços, equipamentos, mobiliários e outros. - modernização do Estado e da gestão pública federal;\n- transparência da ação estatal;\n- melhoria da estrutura física e administrativa das unidades básicas de ensino;\n- ampliação da qualidade física dos ambientes voltados à educação básica",
-    "metaGlobal": "020-Reformar escola ou creche",
-    "dataInicialPrevista": "2022-12-23",
-    "dataFinalPrevista": "2025-12-23",
+    "idUnico": "3819.53-95",
+    "nome": "Cobertura da quadra poliesportiva",
+    "cep": "70.800-120",
+    "endereco": "Via L4 Norte, Lote 01, Trecho 2, SCEN",
+    "descricao": "Cobertura da quadra poliesportiva utilizada pelos beneficiários do PROFESP",
+    "funcaoSocial": "Melhoria das condições de uso",
+    "metaGlobal": "Cobertura da quadra poliesportiva utilizada pelos beneficiários do PROFESP",
+    "dataInicialPrevista": "2021-09-15",
+    "dataFinalPrevista": "2021-11-01",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-12-28",
-    "especie": "Reforma",
+    "dataCadastro": "2021-09-10",
+    "especie": "Ampliação",
     "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
+    "naturezaOutras": "",
+    "situacao": "Em execução",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
-    "qdtEmpregosGerados": "50",
-    "descPopulacaoBeneficiada": "A escola atende 280 alunos divididos em 2 turnos. ",
-    "populacaoBeneficiada": "280",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2022-12-28",
-    "tomadores": [],
+    "isModeladaPorBim": null,
+    "dataSituacao": "2021-09-14",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA MARINHA - FUNDO NAVAL",
+        "codigo": 52132
+      }
+    ],
     "executores": [
       {
-        "nome": "SECRETARIA DE ESTADO DE EDUCACAO DO DISTRITO FEDERAL",
-        "codigo": 394676000107
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
       }
     ],
     "repassadores": [
       {
-        "nome": "FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO",
-        "codigo": 253
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
       }
     ],
     "eixos": [
       {
-        "id": 4,
-        "descricao": "Social"
+        "id": 2,
+        "descricao": "Militar"
       }
     ],
     "tipos": [
       {
-        "id": 46,
+        "id": 17,
         "descricao": "Educação",
-        "idEixo": 4
+        "idEixo": 2
       }
     ],
     "subTipos": [
       {
         "id": 84,
         "descricao": "Educação",
-        "idTipo": 46
+        "idTipo": 17
       }
     ],
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 7710263.3
+        "valorInvestimentoPrevisto": 250000
       }
     ],
-    "latitude": -15.78907,
-    "longitude": -47.87927
+    "latitude": -15.7829978599079,
+    "longitude": -47.8595166550233
   },
   {
     "idUnico": "4545.53-03",
@@ -488,46 +493,41 @@
     "longitude": -47.879404296877
   },
   {
-    "idUnico": "12603.53-08",
-    "nome": "Reforma da arquibancada e pintura da pista de atletismo",
-    "cep": "70800-120",
-    "endereco": "Via L4 Norte, Lote 01, Trecho 2, SCEN  Brasília, DF",
-    "descricao": "Reforma da arquibancada e pintura da pista de atletismo",
-    "funcaoSocial": "PROFESP",
-    "metaGlobal": "Reforma da arquibancada e pintura da pista de atletismo",
-    "dataInicialPrevista": "2022-11-17",
-    "dataFinalPrevista": "2022-12-09",
+    "idUnico": "16449.53-65",
+    "nome": "REFORMA CENTRO EDUCACIONAL OSÓRIO BACHIN",
+    "cep": null,
+    "endereco": null,
+    "descricao": "020-Reformar escola ou creche",
+    "funcaoSocial": "Alunos. - redução das desigualdades educacionais regionais;\n- demandas por infraestrutura e manutenção, por meio da aquisição de serviços, equipamentos, mobiliários e outros. - modernização do Estado e da gestão pública federal;\n- transparência da ação estatal;\n- melhoria da estrutura física e administrativa das unidades básicas de ensino;\n- ampliação da qualidade física dos ambientes voltados à educação básica",
+    "metaGlobal": "020-Reformar escola ou creche",
+    "dataInicialPrevista": "2022-12-23",
+    "dataFinalPrevista": "2025-12-23",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-11-10",
+    "dataCadastro": "2022-12-28",
     "especie": "Reforma",
     "natureza": "Obra",
     "naturezaOutras": null,
-    "situacao": "Em execução",
+    "situacao": "Cadastrada",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
+    "qdtEmpregosGerados": "50",
+    "descPopulacaoBeneficiada": "A escola atende 280 alunos divididos em 2 turnos. ",
+    "populacaoBeneficiada": "280",
     "observacoesPertinentes": null,
     "isModeladaPorBim": false,
-    "dataSituacao": "2022-11-23",
-    "tomadores": [
-      {
-        "nome": "COMANDO DA MARINHA",
-        "codigo": 185
-      }
-    ],
+    "dataSituacao": "2022-12-28",
+    "tomadores": [],
     "executores": [
       {
-        "nome": "COMANDO DA MARINHA",
-        "codigo": 185
+        "nome": "SECRETARIA DE ESTADO DE EDUCACAO DO DISTRITO FEDERAL",
+        "codigo": 394676000107
       }
     ],
     "repassadores": [
       {
-        "nome": "CAMARA DOS DEPUTADOS",
-        "codigo": 1000
+        "nome": "FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO",
+        "codigo": 253
       }
     ],
     "eixos": [
@@ -547,17 +547,17 @@
       {
         "id": 84,
         "descricao": "Educação",
-        "idTipo": 46
+        "idTipo": 17
       }
     ],
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 75657.05
+        "valorInvestimentoPrevisto": 7710263.3
       }
     ],
-    "latitude": -15.783650006479,
-    "longitude": -47.86064
+    "latitude": -15.78907,
+    "longitude": -47.87927
   },
   {
     "idUnico": "4546.53-60",
@@ -691,7 +691,7 @@
       {
         "id": 84,
         "descricao": "Educação",
-        "idTipo": 46
+        "idTipo": 17
       }
     ],
     "fontesDeRecurso": [
