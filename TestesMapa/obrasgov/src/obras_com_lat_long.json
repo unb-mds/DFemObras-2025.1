@@ -560,6 +560,78 @@
     "longitude": -47.889404296878
   },
   {
+    "idUnico": "20285.53-58",
+    "nome": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "cep": "70.790-020",
+    "endereco": "902/904 - Asa Norte, Brasília - DF",
+    "descricao": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "funcaoSocial": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "metaGlobal": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "dataInicialPrevista": "2023-03-02",
+    "dataFinalPrevista": "2024-03-01",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-03-01",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Inativada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-03-01",
+    "tomadores": [
+      {
+        "nome": "COMANDO DO EXÉRCITO",
+        "codigo": 94
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DO EXÉRCITO",
+        "codigo": 94
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA DEFESA",
+        "codigo": 41066
+      }
+    ],
+    "eixos": [
+      {
+        "id": 1,
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 5,
+        "descricao": "Administrativo",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 1
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 769000
+      }
+    ],
+    "latitude": -15.7811300064764,
+    "longitude": -47.89285
+  },
+  {
     "idUnico": "21327.53-34",
     "nome": "Reforma Agroecologia",
     "cep": "73.380-900",
@@ -630,77 +702,5 @@
     ],
     "latitude": -15.6578800063479,
     "longitude": -47.69608
-  },
-  {
-    "idUnico": "3819.53-95",
-    "nome": "Cobertura da quadra poliesportiva",
-    "cep": "70.800-120",
-    "endereco": "Via L4 Norte, Lote 01, Trecho 2, SCEN",
-    "descricao": "Cobertura da quadra poliesportiva utilizada pelos beneficiários do PROFESP",
-    "funcaoSocial": "Melhoria das condições de uso",
-    "metaGlobal": "Cobertura da quadra poliesportiva utilizada pelos beneficiários do PROFESP",
-    "dataInicialPrevista": "2021-09-15",
-    "dataFinalPrevista": "2021-11-01",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-09-10",
-    "especie": "Ampliação",
-    "natureza": "Obra",
-    "naturezaOutras": "",
-    "situacao": "Em execução",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-09-14",
-    "tomadores": [
-      {
-        "nome": "COMANDO DA MARINHA - FUNDO NAVAL",
-        "codigo": 52132
-      }
-    ],
-    "executores": [
-      {
-        "nome": "COMANDO DA MARINHA",
-        "codigo": 185
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "COMANDO DA MARINHA",
-        "codigo": 185
-      }
-    ],
-    "eixos": [
-      {
-        "id": 2,
-        "descricao": "Militar"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 17,
-        "descricao": "Educação",
-        "idEixo": 2
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 84,
-        "descricao": "Educação",
-        "idTipo": 46
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 250000
-      }
-    ],
-    "latitude": -15.7829978599079,
-    "longitude": -47.8595166550233
   }
 ]
