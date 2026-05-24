@@ -58,8 +58,8 @@
         "valorInvestimentoPrevisto": 44463443
       }
     ],
-    "latitude": -15.7899417788856,
-    "longitude": -47.8751524777795
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "19970.53-78",
@@ -192,8 +192,8 @@
         "valorInvestimentoPrevisto": 10800000
       }
     ],
-    "latitude": -15.81669,
-    "longitude": -47.94969
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "24822.53-70",
@@ -273,8 +273,8 @@
         "valorInvestimentoPrevisto": 928139.7
       }
     ],
-    "latitude": -15.7613700064557,
-    "longitude": -47.87386
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "4545.53-03",
@@ -345,8 +345,8 @@
         "valorInvestimentoPrevisto": 30000006
       }
     ],
-    "latitude": -15.874476668284686,
-    "longitude": -47.879404296877
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "4541.53-44",
@@ -417,8 +417,8 @@
         "valorInvestimentoPrevisto": 300000002
       }
     ],
-    "latitude": -15.834476668284681,
-    "longitude": -47.839404296873
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "16449.53-65",
@@ -556,8 +556,8 @@
         "valorInvestimentoPrevisto": 30000007
       }
     ],
-    "latitude": -15.884476668284686,
-    "longitude": -47.889404296878
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "21327.53-34",
@@ -628,8 +628,8 @@
         "valorInvestimentoPrevisto": 3300000
       }
     ],
-    "latitude": -15.6578800063479,
-    "longitude": -47.69608
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "3819.53-95",
@@ -700,7 +700,7 @@
         "valorInvestimentoPrevisto": 250000
       }
     ],
-    "latitude": -15.7829978599079,
-    "longitude": -47.8595166550233
+    "latitude": null,
+    "longitude": null
   }
 ]
