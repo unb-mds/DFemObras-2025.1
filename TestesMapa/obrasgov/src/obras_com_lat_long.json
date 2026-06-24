@@ -199,87 +199,6 @@
     "longitude": -47.94969
   },
   {
-    "idUnico": "24822.53-70",
-    "nome": "obra de construção da  Cabine de Medição, localizado no Setor Central do Campus Universitário Darcy Ribeiro, da Universidade de Brasília, em Brasília/DF",
-    "cep": null,
-    "endereco": null,
-    "descricao": "obra de construção da  Cabine de Medição, localizado no Setor Central do Campus Universitário Darcy Ribeiro, da Universidade de Brasília, em Brasília/DF",
-    "funcaoSocial": "A demanda de carga elétrica do Campus Darcy Ribeiro aumenta progressivamente, em razão da instalação de novos\nequipamentos de ar-condicionado, equipamentos para laboratórios, entre outros inerentes ao crescimento da Universidade. A\nprincipal consequência disso é a sobrecarga nos cabeamentos do fornecimento de energia, que comprometem a qualidade da\ninfraestrutura elétrica. Nos meses de novembro e dezembro de 2019 atingiram valores de demanda de energia próximos ao pico\nmáximo já registrado, conforme relatado no documento SEI N. 5187620.\nA Norma Técnica de Distribuição - NTD Nº 6.05, publicada pela CEB-D, trata do fornecimento de energia elétrica em tensão\nprimária de distribuição. Essa normativa define, entre outros aspectos, as características técnicas necessárias para o correto\nfuncionamento de subestações de entrada de energia, segundo os padrões técnicos da concessionária.\nAs subestações devem ter características de construção definitiva, ser de materiais incombustíveis e de estabilidade adequada,\noferecendo condições de bem-estar e segurança aos operadores, devem atender a requisitos de segurança e serem devidamente\nprotegidas contra danos acidentais decorrentes do meio ambiente.\nAlém disso, a disposição dos equipamentos deve oferecer condições adequadas de operação, segurança e facilidade de\nsubstituição do todo ou parte, facilitados por corredores que obedeçam às dimensões recomendadas para viabilizar a correta\noperação e manutenção dos sistemas, garantindo que o afastamento entre partes vivas também obedeça aos critérios técnicos\nestabelecidos na NTD.\n",
-    "metaGlobal": "A demanda de carga elétrica do Campus Darcy Ribeiro aumenta progressivamente, em razão da instalação de novos\nequipamentos de ar-condicionado, equipamentos para laboratórios, entre outros inerentes ao crescimento da Universidade. A\nprincipal consequência disso é a sobrecarga nos cabeamentos do fornecimento de energia, que comprometem a qualidade da\ninfraestrutura elétrica. Nos meses de novembro e dezembro de 2019 atingiram valores de demanda de energia próximos ao pico\nmáximo já registrado, conforme relatado no documento SEI N. 5187620.\nA Norma Técnica de Distribuição - NTD Nº 6.05, publicada pela CEB-D, trata do fornecimento de energia elétrica em tensão\nprimária de distribuição. Essa normativa define, entre outros aspectos, as características técnicas necessárias para o correto\nfuncionamento de subestações de entrada de energia, segundo os padrões técnicos da concessionária.\nAs subestações devem ter características de construção definitiva, ser de materiais incombustíveis e de estabilidade adequada,\noferecendo condições de bem-estar e segurança aos operadores, devem atender a requisitos de segurança e serem devidamente\nprotegidas contra danos acidentais decorrentes do meio ambiente.\nAlém disso, a disposição dos equipamentos deve oferecer condições adequadas de operação, segurança e facilidade de\nsubstituição do todo ou parte, facilitados por corredores que obedeçam às dimensões recomendadas para viabilizar a correta\noperação e manutenção dos sistemas, garantindo que o afastamento entre partes vivas também obedeça aos critérios técnicos\nestabelecidos na NTD.\nAtualmente, a cabine de medição do Campus Universitário Darcy Ribeiro está situada no subsolo do SG-12. Esta edificação é\nocupada pelo Departamento de Engenharia Civil para abrigar salas de aulas e laboratórios, cujo espaço físico não oferece as\ncondições técnicas necessárias para viabilizar a expansão de carga do campus.",
-    "dataInicialPrevista": "2023-09-14",
-    "dataFinalPrevista": "2024-03-14",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2023-08-29",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2023-08-29",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "eixos": [
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      },
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 31,
-        "descricao": "Energia",
-        "idEixo": 3
-      },
-      {
-        "id": 31,
-        "descricao": "Energia",
-        "idEixo": 3
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 95,
-        "descricao": "Subestação",
-        "idTipo": 31
-      },
-      {
-        "id": 39,
-        "descricao": "Empreendimento de Transmissão de Energia Elétrica",
-        "idTipo": 31
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 928139.7
-      }
-    ],
-    "latitude": -15.7613700064557,
-    "longitude": -47.87386
-  },
-  {
     "idUnico": "4541.53-44",
     "nome": "202111-22-Ronald 1",
     "cep": "70067-901",
@@ -705,5 +624,77 @@
     ],
     "latitude": -15.8008200064971,
     "longitude": -47.87786
+  },
+  {
+    "idUnico": "21335.53-99",
+    "nome": "Reforma do Centro de Múltiplas Funções do Campus São Sebastião",
+    "cep": "71.697-040",
+    "endereco": "Área Especial 2, S/N, Bairro São Bartolomeu - São Sebastião/DF",
+    "descricao": "Reforma do prédio de múltiplas funções do campus São Sebastião que compreende uma área de 523 m². A reforma compreenderá o telhado, a troca de uma viga que foi quebrada com a queda de uma área e ajustes no piso, instalações elétricas e hidráulicas. ",
+    "funcaoSocial": "melhorar a qualidade do ensino na unidade através de laboratórios e salas ludos",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
+    "dataInicialPrevista": "2023-12-01",
+    "dataFinalPrevista": "2024-07-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Reforma",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.8921200065933,
+    "longitude": -47.7786
   }
 ]
