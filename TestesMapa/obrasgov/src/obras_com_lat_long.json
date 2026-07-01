@@ -1,70 +1,5 @@
 [
   {
-    "idUnico": "91023.53-34",
-    "nome": "26.782.2087.7R82.0052",
-    "cep": "70040-902",
-    "endereco": " BR-010/ BR-020",
-    "descricao": "Adequação De Trecho Rodoviário - Divisa Df/Go - Divisa Go/Ba - Na Br-020/Go No Estado De Goiás",
-    "funcaoSocial": "Preservar vidas e promover o desenvolvimento sustentável do país priorizando a segurança, as boas condições de trafegabilidade e a otimização da logística dos transportes, elevando assim o nível de serviço das vias.",
-    "metaGlobal": "Garantir dotação orçamentária para os contratos que envolvem 24.0000 km desta rúbrica.",
-    "dataInicialPrevista": "2012-05-16",
-    "dataFinalPrevista": "2024-09-29",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2025-08-15",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Concluída",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2026-06-08",
-    "tomadores": [
-      {
-        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
-        "codigo": 54844
-      }
-    ],
-    "executores": [
-      {
-        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
-        "codigo": 54844
-      }
-    ],
-    "repassadores": [],
-    "eixos": [
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 25,
-        "descricao": "Rodovia",
-        "idEixo": 3
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 58,
-        "descricao": "Pavimentação",
-        "idTipo": 25
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 130440356.66
-      }
-    ]
-  },
-  {
     "idUnico": "19970.53-78",
     "nome": "Reajuste do Contrato 45/2021 - Contrução do Centro de Formação e Aperfeiçoamento de Praças - CEFAP do CBMDF",
     "cep": "70.602-600",
@@ -130,6 +65,71 @@
     ],
     "latitude": -15.83216000653,
     "longitude": -47.93603
+  },
+  {
+    "idUnico": "91023.53-34",
+    "nome": "26.782.2087.7R82.0052",
+    "cep": "70040-902",
+    "endereco": " BR-010/ BR-020",
+    "descricao": "Adequação De Trecho Rodoviário - Divisa Df/Go - Divisa Go/Ba - Na Br-020/Go No Estado De Goiás",
+    "funcaoSocial": "Preservar vidas e promover o desenvolvimento sustentável do país priorizando a segurança, as boas condições de trafegabilidade e a otimização da logística dos transportes, elevando assim o nível de serviço das vias.",
+    "metaGlobal": "Garantir dotação orçamentária para os contratos que envolvem 24.0000 km desta rúbrica.",
+    "dataInicialPrevista": "2012-05-16",
+    "dataFinalPrevista": "2024-09-29",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2025-08-15",
+    "especie": "Construção",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Concluída",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2026-06-08",
+    "tomadores": [
+      {
+        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
+        "codigo": 54844
+      }
+    ],
+    "executores": [
+      {
+        "nome": "DEPARTAMENTO NACIONAL DE INFRAESTRUTURA DE TRANSPORTES",
+        "codigo": 54844
+      }
+    ],
+    "repassadores": [],
+    "eixos": [
+      {
+        "id": 3,
+        "descricao": "Econômico"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 25,
+        "descricao": "Rodovia",
+        "idEixo": 3
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 58,
+        "descricao": "Pavimentação",
+        "idTipo": 25
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 130440356.66
+      }
+    ]
   },
   {
     "idUnico": "24797.53-15",
@@ -271,78 +271,6 @@
     "longitude": -47.839404296873
   },
   {
-    "idUnico": "4546.53-60",
-    "nome": "202111-22-Ronald 1",
-    "cep": "70067-902",
-    "endereco": "2021122-Ronald - Endereço Completo",
-    "descricao": "2021122-Ronald - Descrição do Projeto",
-    "funcaoSocial": "2021122-Ronald - Descrição Funç]ap Social",
-    "metaGlobal": "20211122-Ronald - Descrição Meta Global",
-    "dataInicialPrevista": "2021-12-10",
-    "dataFinalPrevista": "2021-12-10",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-11-17",
-    "especie": "Reforma",
-    "natureza": "Projeto de Investimento em Infraestrutura",
-    "naturezaOutras": "outros",
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-11-17",
-    "tomadores": [
-      {
-        "nome": "FUND.UNIVERSIDADE FEDERAL VALE SAO FRANCISCO",
-        "codigo": 26230
-      }
-    ],
-    "executores": [
-      {
-        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-        "codigo": 308799
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-        "codigo": 308799
-      }
-    ],
-    "eixos": [
-      {
-        "id": 4,
-        "descricao": "Social"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 45,
-        "descricao": "Desenvolvimento",
-        "idEixo": 4
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 38,
-        "descricao": "Saneamento",
-        "idTipo": 45
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 30000007
-      }
-    ],
-    "latitude": -15.884476668284686,
-    "longitude": -47.889404296878
-  },
-  {
     "idUnico": "16449.53-65",
     "nome": "REFORMA CENTRO EDUCACIONAL OSÓRIO BACHIN",
     "cep": null,
@@ -480,6 +408,78 @@
     ],
     "latitude": -15.874476668284686,
     "longitude": -47.879404296877
+  },
+  {
+    "idUnico": "4546.53-60",
+    "nome": "202111-22-Ronald 1",
+    "cep": "70067-902",
+    "endereco": "2021122-Ronald - Endereço Completo",
+    "descricao": "2021122-Ronald - Descrição do Projeto",
+    "funcaoSocial": "2021122-Ronald - Descrição Funç]ap Social",
+    "metaGlobal": "20211122-Ronald - Descrição Meta Global",
+    "dataInicialPrevista": "2021-12-10",
+    "dataFinalPrevista": "2021-12-10",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-11-17",
+    "especie": "Reforma",
+    "natureza": "Projeto de Investimento em Infraestrutura",
+    "naturezaOutras": "outros",
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2021-11-17",
+    "tomadores": [
+      {
+        "nome": "FUND.UNIVERSIDADE FEDERAL VALE SAO FRANCISCO",
+        "codigo": 26230
+      }
+    ],
+    "executores": [
+      {
+        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+        "codigo": 308799
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+        "codigo": 308799
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 45,
+        "descricao": "Desenvolvimento",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 38,
+        "descricao": "Saneamento",
+        "idTipo": 45
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 30000007
+      }
+    ],
+    "latitude": -15.884476668284686,
+    "longitude": -47.889404296878
   },
   {
     "idUnico": "21327.53-34",
