@@ -1,77 +1,5 @@
 [
   {
-    "idUnico": "440.53-82",
-    "nome": "CONSTRUÇÃO DE NOVA SEDE DO INSTITUTO MÉDICO LEGAL",
-    "cep": "1",
-    "endereco": "SPO, CJ A LOTE 23, COMPLEXO DA PCDF.",
-    "descricao": "CONSTRUÇÃO DE SEDE DO IML/PCDF",
-    "funcaoSocial": "AUXÍLIAR NO TRABALHO TÉCNICO/INVESTIGATIVO DA PCDF.",
-    "metaGlobal": "CONSTRUÇÃO DO NOVO IML/PCDF",
-    "dataInicialPrevista": "2021-03-31",
-    "dataFinalPrevista": "2022-06-30",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-03-19",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": "",
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-03-19",
-    "tomadores": [
-      {
-        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
-        "codigo": 37115482000135
-      }
-    ],
-    "executores": [
-      {
-        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
-        "codigo": 37115482000135
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "ESTATAIS DO MINISTERIO DA FAZENDA",
-        "codigo": 91010
-      }
-    ],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 1,
-        "descricao": "Segurança Pública",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 1
-      }
-    ],
-    "latitude": -15.809340006506,
-    "longitude": -47.92857
-  },
-  {
     "idUnico": "19970.53-78",
     "nome": "Reajuste do Contrato 45/2021 - Contrução do Centro de Formação e Aperfeiçoamento de Praças - CEFAP do CBMDF",
     "cep": "70.602-600",
@@ -135,8 +63,8 @@
         "valorInvestimentoPrevisto": 1177429.91
       }
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": -15.83216000653,
+    "longitude": -47.93603
   },
   {
     "idUnico": "91023.53-34",
@@ -267,8 +195,8 @@
         "valorInvestimentoPrevisto": 10800000
       }
     ],
-    "latitude": null,
-    "longitude": null
+    "latitude": -15.81669,
+    "longitude": -47.94969
   },
   {
     "idUnico": "4541.53-44",
@@ -339,8 +267,8 @@
         "valorInvestimentoPrevisto": 300000002
       }
     ],
-    "latitude": -15.834476668284681,
-    "longitude": -47.839404296873
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "16449.53-65",
@@ -406,8 +334,8 @@
         "valorInvestimentoPrevisto": 7710263.3
       }
     ],
-    "latitude": -15.78907,
-    "longitude": -47.87927
+    "latitude": null,
+    "longitude": null
   },
   {
     "idUnico": "4545.53-03",
@@ -622,27 +550,27 @@
         "valorInvestimentoPrevisto": 3300000
       }
     ],
-    "latitude": -15.6578800063479,
-    "longitude": -47.69608
+    "latitude": null,
+    "longitude": null
   },
   {
-    "idUnico": "21335.53-99",
-    "nome": "Reforma do Centro de Múltiplas Funções do Campus São Sebastião",
-    "cep": "71.697-040",
-    "endereco": "Área Especial 2, S/N, Bairro São Bartolomeu - São Sebastião/DF",
-    "descricao": "Reforma do prédio de múltiplas funções do campus São Sebastião que compreende uma área de 523 m². A reforma compreenderá o telhado, a troca de uma viga que foi quebrada com a queda de uma área e ajustes no piso, instalações elétricas e hidráulicas. ",
-    "funcaoSocial": "melhorar a qualidade do ensino na unidade através de laboratórios e salas ludos",
-    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
-    "dataInicialPrevista": "2023-12-01",
-    "dataFinalPrevista": "2024-07-31",
+    "idUnico": "21345.53-56",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Taguatinga",
+    "cep": "72.146-000",
+    "endereco": "QNM 40, Área Especial 01, às margens da BR 070. Taguatinga/DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Taguatinga que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Taguatinga principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n\n",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
     "dataCadastro": "2023-04-14",
-    "especie": "Reforma",
+    "especie": "Recuperação",
     "natureza": "Obra",
     "naturezaOutras": null,
     "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
     "uf": "DF",
     "qdtEmpregosGerados": null,
     "descPopulacaoBeneficiada": null,
@@ -692,6 +620,78 @@
       {
         "origem": "Federal",
         "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "idUnico": "2729.53-94",
+    "nome": "Ampliação e Reforma do Hospital Naval de Brasília",
+    "cep": "1",
+    "endereco": "SEPS Q 711/911 - Asa Sul, Brasília - DF",
+    "descricao": "CONTRATAÇÃO INTEGRADA de empresa especializada em construção civil para realizar a prestação de serviços de REFORMA E AMPLIAÇÃO DO HOSPITAL NAVAL DE BRASÍLIA – HNBra, incluindo a elaboração de projetos básicos e executivos de arquitetura e engenharia, planos e programas ambientais visando a minimização dos impactos ambientais do novo hospital. O detalhamento encontra-se no RDC 01/2019 deste Hospital.",
+    "funcaoSocial": "Atendimento à Família Naval.",
+    "metaGlobal": "Expansão física das instalações e, com isso, passaremos a disponibilizar uma gama muito maior de consultas e procedimentos, inclusive aqueles com valor agregado muito alto, como no caso de internações (nos seus diversos níveis de complexidade).",
+    "dataInicialPrevista": "2020-01-20",
+    "dataFinalPrevista": "2023-03-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-06-22",
+    "especie": "Ampliação",
+    "natureza": "Obra",
+    "naturezaOutras": "",
+    "situacao": "Concluída",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2023-03-31",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "eixos": [
+      {
+        "id": 2,
+        "descricao": "Militar"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 18,
+        "descricao": "Saúde",
+        "idEixo": 2
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 47,
+        "descricao": "Instituições Hospitalares Federais",
+        "idTipo": 18
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 27792850.24
       }
     ],
     "latitude": null,
