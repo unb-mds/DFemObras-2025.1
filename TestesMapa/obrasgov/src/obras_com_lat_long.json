@@ -1,107 +1,45 @@
 [
   {
-    "idUnico": "21905.53-36",
-    "nome": "Aquisição de equipamento 01 retroescavadeira",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Aquisição de equipamento 01 retroescavadeira",
-    "funcaoSocial": "Produtores Rurais e População da região.. Manutenção do sistema viário rural do Distrito Federal.. Agilidade na execução dos serviços de recuperação de estradas rurais.",
-    "metaGlobal": "Aquisição de equipamento 01 retroescavadeira",
-    "dataInicialPrevista": "2023-05-12",
-    "dataFinalPrevista": "2024-05-12",
+    "idUnico": "21339.53-04",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Brasília",
+    "cep": "70.830-450",
+    "endereco": "Via L2 Norte, SGAN 610 (610 Norte), Módulo D, E, F e G .Brasília/DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Brasília que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Brasília principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2023-05-12",
+    "dataCadastro": "2023-04-14",
     "especie": "Recuperação",
     "natureza": "Obra",
     "naturezaOutras": null,
     "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n",
     "uf": "DF",
     "qdtEmpregosGerados": null,
     "descPopulacaoBeneficiada": null,
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
     "isModeladaPorBim": false,
-    "dataSituacao": "2023-05-12",
-    "tomadores": [],
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
     "executores": [
       {
-        "nome": "DEPARTAMENTO DE ESTRADAS DE RODAGEM DO DISTRITO FEDERAL",
-        "codigo": 70532000103
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
       }
     ],
     "repassadores": [
       {
-        "nome": "MINISTÉRIO DA AGRICULTURA, PECUÁRIA E ABASTECIMENTO",
-        "codigo": 14
-      }
-    ],
-    "eixos": [
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 25,
-        "descricao": "Rodovia",
-        "idEixo": 3
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 15,
-        "descricao": "Aquisição de Máquinas e Equipamentos",
-        "idTipo": 25
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 750000
-      }
-    ],
-    "latitude": -15.90039,
-    "longitude": -47.61021
-  },
-  {
-    "idUnico": "91396.53-69",
-    "nome": "Construção do Centro de Educação para Primeira Infância (CEPI) - Tipo 2. Proinfância FNDE. Expansão Urbana Setor Oeste AR 11 Sobradinho II/DF.",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Construção da Creche Centro de Educação para Primeira Infância (CEPI) -  Brasília - DF – FNDE – Creche Tipo 2",
-    "funcaoSocial": "A construção da nova creche irá beneficiar 94 crianças, de 0 a 3 anos, em turno integral. O terreno escolhido para creche está na comunidade de Sobradinho II, Região Administrava do Distrito Federal.. A região de Sobradinho II enfrenta uma carência de unidades educacionais, resultando em cerca de 182 crianças sem acesso à educação. Essas construções fazem parte do plano de ação oriundo de mediação junto aos órgãos de controle (TJDFT, MPDFT e DPDF).. Atendimento a meta estabelecida no Plano Nacional de Educação – PNE: ampliar a oferta em creches de forma a atender, no mínimo, 50% (cinquenta por cento) das crianças de até 3 (três) anos, pelo Distrito Federal.",
-    "metaGlobal": "Construção da Creche Centro de Educação para Primeira Infância (CEPI) -  Brasília - DF – FNDE – Creche Tipo 2",
-    "dataInicialPrevista": "2025-12-26",
-    "dataFinalPrevista": "2029-12-26",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2025-08-19",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": "50",
-    "descPopulacaoBeneficiada": "A população diretamente beneficiada pelo Expansão Urbana Setor Oeste AR 11 Sobradinho II/DF. são crianças em idade escolar, que terão acesso a uma nova creche, propiciando aprendizado e desenvolvimento. Indiretamente, toda a comunidade se beneficia, com valorização da região, atração de novos moradores, geração de empregos e desenvolvimento local.",
-    "populacaoBeneficiada": "255",
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2025-08-19",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "SECRETARIA DE ESTADO DE EDUCACAO DO DISTRITO FEDERAL",
-        "codigo": 394676000107
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO",
-        "codigo": 253
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
       }
     ],
     "eixos": [
@@ -127,435 +65,244 @@
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 3590743.62
+        "valorInvestimentoPrevisto": 1000000
       }
     ],
-    "latitude": -15.63955,
-    "longitude": -47.82155
+    "latitude": -15.7539400064479,
+    "longitude": -47.87709
   },
   {
-    "idUnico": "3959.53-67",
-    "nome": "Data center ABIN",
-    "cep": "70.610-905",
-    "endereco": "SPO Area 5, Quadra 1, Portaria ABIN",
-    "descricao": "Construção de um data center para abrir os ativos de processamento e armazenamento de tecnologia da informação para a Abin",
-    "funcaoSocial": "Prover um lugar seguro para processar e armazenar as informações de inteligência que auxiliam a Presidência da República a tomada de decisão no processo decisório nacional.",
-    "metaGlobal": "Ao final da obra espera-se ter um data center seguro para hospedar os equipamentos e conhecimentos de inteligência produzidos pela Agência Brasileira de Inteligência.",
-    "dataInicialPrevista": "2021-09-02",
-    "dataFinalPrevista": "2022-03-01",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-09-27",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": "",
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-09-27",
-    "tomadores": [
-      {
-        "nome": "Agência Brasileira de Inteligência",
-        "codigo": 1175497000141
-      }
-    ],
-    "executores": [
-      {
-        "nome": "Agência Brasileira de Inteligência",
-        "codigo": 1175497000141
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "MINISTERIO DA ECONOMIA",
-        "codigo": 25000
-      }
-    ],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 1,
-        "descricao": "Segurança Pública",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 8425000
-      }
-    ],
-    "latitude": -15.8216300065189,
-    "longitude": -47.94413
-  },
-  {
-    "idUnico": "20229.53-90",
-    "nome": "Obra de construção dos Quiosques do Instituto Central de Ciências- ICC",
-    "cep": null,
-    "endereco": null,
-    "descricao": "obra de construção dos Quiosques do Instituto Central de Ciências- ICC, localizado no campus Universitário Darcy Ribeiro da Universidade de Brasília, em Brasília-DF",
-    "funcaoSocial": "Os quiosques existentes no Instituto Central de Ciências resultam de uma ocupação improvisada em divisórias para atender à crescente demanda da comunidade acadêmica por diversos serviços - fotocópias, papelaria, livraria, perfumaria, alimentação, entre outros - em umas das principais edificações da universidade. Contudo, essa ocupação não foi municiada com a infraestrutura predial necessária para garantir a qualidade e segurança para comercialização dos aludidos serviços.\n\nNesse contexto, a INFRA identificou a necessidade de adequar e qualificar a ocupação das entradas Sul e Norte do ICC com as premissas de melhorar as condições de circulação da comunidade e promover o respeito às características espaciais do edifício. Além disso, ofertar melhores condições aos permissionários para atender às normas de segurança alimentar, compatíveis com os critérios da Vigilância Sanitária da Secretaria de Saúde do Distrito Federal.\n\nCom o intuito de promover uma instância adequada para incentivar a participação da comunidade universitária em debates sobre a compatibilização de demandas patrimoniais, comerciais e de serviços, foi proposto um concurso público de estudos preliminares de arquitetura, restrita à comunidade interna da UnB. Após a escolha da equipe vencedora, os projetos executivos e documentos técnicos foram desenvolvidos.\n\nPortanto, a contratação consiste em remover os quiosques existentes e implementar a proposta vencedora do concurso, nos termos elencados anteriormente, a serem construídos nas entradas Norte e Sul do Instituto Central de Ciências - ICC, destinados a abrigar atividades comerciais e de alimentação.",
-    "metaGlobal": "Os quiosques existentes no Instituto Central de Ciências resultam de uma ocupação improvisada em divisórias para atender à crescente demanda da comunidade acadêmica por diversos serviços - fotocópias, papelaria, livraria, perfumaria, alimentação, entre outros - em umas das principais edificações da universidade. Contudo, essa ocupação não foi municiada com a infraestrutura predial necessária para garantir a qualidade e segurança para comercialização dos aludidos serviços.\n\nNesse contexto, a INFRA identificou a necessidade de adequar e qualificar a ocupação das entradas Sul e Norte do ICC com as premissas de melhorar as condições de circulação da comunidade e promover o respeito às características espaciais do edifício. Além disso, ofertar melhores condições aos permissionários para atender às normas de segurança alimentar, compatíveis com os critérios da Vigilância Sanitária da Secretaria de Saúde do Distrito Federal.\n\nCom o intuito de promover uma instância adequada para incentivar a participação da comunidade universitária em debates sobre a compatibilização de demandas patrimoniais, comerciais e de serviços, foi proposto um concurso público de estudos preliminares de arquitetura, restrita à comunidade interna da UnB. Após a escolha da equipe vencedora, os projetos executivos e documentos técnicos foram desenvolvidos.\n\nPortanto, a contratação consiste em remover os quiosques existentes e implementar a proposta vencedora do concurso, nos termos elencados anteriormente, a serem construídos nas entradas Norte e Sul do Instituto Central de Ciências - ICC, destinados a abrigar atividades comerciais e de alimentação.",
-    "dataInicialPrevista": "2023-03-09",
-    "dataFinalPrevista": "2023-06-06",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2023-02-23",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2023-02-23",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 8,
-        "descricao": "Educação",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 900778.91
-      }
-    ],
-    "latitude": -15.7634700064579,
-    "longitude": -47.86964
-  },
-  {
-    "idUnico": "21001.53-67",
-    "nome": "Contratação de empresa especializada em projetos de engenharia e arquitetura para elaboração de Projeto Executivo de Pavimentação e Complementares, para o asfaltamento de pista de direção operacional ",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Contratação de empresa especializada em projetos de engenharia e arquitetura para elaboração de Projeto Executivo de Pavimentação e Complementares, para o asfaltamento de pista de direção operacional e vias internas desta Academia Nacional de Polícia em Brasília/DF",
-    "funcaoSocial": "Segurança Pública",
-    "metaGlobal": "Contratação de empresa especializada em projetos de engenharia e arquitetura para elaboração de Projeto Executivo de Pavimentação e Complementares, para o asfaltamento de pista de direção operacional e vias internas desta Academia Nacional de Polícia em Brasília/DF",
-    "dataInicialPrevista": "2023-04-12",
-    "dataFinalPrevista": "2024-03-12",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2023-04-06",
-    "especie": "Reforma",
-    "natureza": "Projeto",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": "Plano de Obras da Polícia Federal",
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2023-04-06",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "DEPARTAMENTO DE POLICIA FEDERAL",
-        "codigo": 30108
-      }
-    ],
-    "repassadores": [],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 1,
-        "descricao": "Segurança Pública",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 197546.71
-      }
-    ],
-    "latitude": -15.6987000063903,
-    "longitude": -47.84679
-  },
-  {
-    "idUnico": "91397.53-15",
-    "nome": "Creche Centro de Educação para Primeira Infância (CEPI)  Quadra QS II LT E, Riacho Fundo I, Brasília- DF",
-    "cep": null,
-    "endereco": null,
-    "descricao": "Construção da Creche Centro de Educação para Primeira Infância (CEPI) -  Brasília - DF – FNDE – Creche Tipo 2",
-    "funcaoSocial": "A construção da nova creche irá beneficiar 94 crianças, de 0 a 3 anos, em turno integral. O terreno escolhido para creche está próximo à comunidade do Riacho Fundo I, Região Administrava do Distrito Federal.. A região de Riacho Fundo I enfrenta uma carência de unidades educacionais, resultando em cerca de 123 crianças sem acesso à educação. Essas construções fazem parte do plano de ação oriundo de mediação junto aos órgãos de controle (TJDFT, MPDFT e DPDF).. Atendimento a meta estabelecida no Plano Nacional de Educação – PNE: ampliar a oferta em creches de forma a atender, no mínimo, 50% (cinquenta por cento) das crianças de até 3 (três) anos, pelo Distrito Federal.",
-    "metaGlobal": "Construção da Creche Centro de Educação para Primeira Infância (CEPI) -  Brasília - DF – FNDE – Creche Tipo 2",
-    "dataInicialPrevista": "2025-12-26",
-    "dataFinalPrevista": "2029-12-26",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2025-08-19",
-    "especie": "Construção",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": "50",
-    "descPopulacaoBeneficiada": "A população diretamente beneficiada pela Quadra QS II LT E, Riacho Fundo I.II/DF. são crianças em idade escolar, que terão acesso a uma nova creche, propiciando aprendizado e desenvolvimento. Indiretamente, toda a comunidade se beneficia, com valorização da região, atração de novos moradores, geração de empregos e desenvolvimento local.",
-    "populacaoBeneficiada": "255",
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": false,
-    "dataSituacao": "2025-08-19",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "SECRETARIA DE ESTADO DE EDUCACAO DO DISTRITO FEDERAL",
-        "codigo": 394676000107
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO",
-        "codigo": 253
-      }
-    ],
-    "eixos": [
-      {
-        "id": 4,
-        "descricao": "Social"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 46,
-        "descricao": "Educação",
-        "idEixo": 4
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 84,
-        "descricao": "Educação",
-        "idTipo": 46
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 3590743.62
-      }
-    ],
-    "latitude": -15.88441,
-    "longitude": -48.01119
-  },
-  {
-    "idUnico": "6450.53-56",
-    "nome": "Reforma do Museu de Valores do Banco Central do Brasil",
-    "cep": null,
-    "endereco": "SBS QD 03 BLOCO B",
-    "descricao": "Reforma e adequação do Museu de Valores e de áreas adjacentes, do Banco Central do Brasil em Brasília/DF",
-    "funcaoSocial": "A contratação permitirá a reforma do espaço destinado ao Museu de Valores que abrigará a nova museografia de acordo com as necessidades apontadas no Plano Museológico 2018-2022 que busca, entre outros pontos, promover a educação financeira da população brasileira.",
-    "metaGlobal": "Contribuição, por parte do Banco Central, de modo mais relevante no processo de promoção de educação financeira com a criação do primeiro museu, na América do Sul, dedicado à promoção da educação econômica da população.",
-    "dataInicialPrevista": "2022-08-15",
-    "dataFinalPrevista": "2025-01-24",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2022-08-01",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": null,
-    "situacao": "Concluída",
-    "descPlanoNacionalPoliticaVinculado": null,
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": true,
-    "dataSituacao": "2025-01-27",
-    "tomadores": [
-      {
-        "nome": "BANCO CENTRAL DO BRASIL-ORC.FISCAL/SEG.SOCIAL",
-        "codigo": 25201
-      }
-    ],
-    "executores": [
-      {
-        "nome": "BANCO CENTRAL DO BRASIL-ORC.FISCAL/SEG.SOCIAL",
-        "codigo": 25201
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDO DE DEFESA DOS DIREITOS DIFUSOS",
-        "codigo": 30905
-      }
-    ],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 5,
-        "descricao": "Administrativo",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 11285163.72
-      }
-    ],
-    "latitude": -15.8032800064996,
-    "longitude": -47.8851
-  },
-  {
-    "idUnico": "4048.53-80",
-    "nome": "OBRA DE REFORMA DO ACESSO PRINCIPAL DA FACULDADE DE CIÊNCIA DA INFORMAÇÃO",
-    "cep": "",
-    "endereco": "",
-    "descricao": "obra de reforma do acesso principal da Faculdade de Ciência da Informação, localizado no Campus Universitário Darcy Ribeiro, da Universidade de Brasília, em Brasília - DF",
-    "funcaoSocial": "A obra se refere à reforma com o propósito de criar um espaço de convivência e adequar o acesso principal da Faculdade de Ciência da Informação – FCI às normas de acessibilidade.\nA proposta para o espaço de convivência foi desenvolvida utilizando mobiliário adequado ao uso proposto e composto por estante para publicações, bancos para convívio e apoio à provável plateia, mesas de trabalho para apoio de computadores e materiais de trabalho, assim como bancada e palco.\nPara a adequação à acessibilidade universal ao setor do prédio, foi proposta a instalação de duas plataformas, sendo uma plataforma inclinada, vencendo o desnível da porta de acesso ao térreo, e outra vertical, para acesso ao mezanino. Ademais, ainda será instalado um corrimão central na escada de acesso para atender à exigência da NBR 9.050/2020.",
-    "metaGlobal": "A obra se refere à reforma com o propósito de criar um espaço de convivência e adequar o acesso principal da Faculdade de Ciência da Informação – FCI às normas de acessibilidade.\nA proposta para o espaço de convivência foi desenvolvida utilizando mobiliário adequado ao uso proposto e composto por estante para publicações, bancos para convívio e apoio à provável plateia, mesas de trabalho para apoio de computadores e materiais de trabalho, assim como bancada e palco.\nPara a adequação à acessibilidade universal ao setor do prédio, foi proposta a instalação de duas plataformas, sendo uma plataforma inclinada, vencendo o desnível da porta de acesso ao térreo, e outra vertical, para acesso ao mezanino. Ademais, ainda será instalado um corrimão central na escada de acesso para atender à exigência da NBR 9.050/2020.",
-    "dataInicialPrevista": "2021-01-25",
-    "dataFinalPrevista": "2021-10-25",
-    "dataInicialEfetiva": null,
-    "dataFinalEfetiva": null,
-    "dataCadastro": "2021-10-05",
-    "especie": "Reforma",
-    "natureza": "Obra",
-    "naturezaOutras": "",
-    "situacao": "Cadastrada",
-    "descPlanoNacionalPoliticaVinculado": "Justifica-se pela necessidade de adequar o acesso à Faculdade de Ciência da Informação – FCI a fim de promover acessibilidade à edificação, conforme normatização atual, especialmente a NBR 9.050/2020.\nPor tal motivo, a obra foi contemplada no Plano de Obras da Universidade de Brasília, aprovado pelo Conselho de Administração, no uso de suas atribuições, em sua 392ª Reunião Ordinária, realizada em 27 de junho de 2019 (23106.075169/2019-59, documento SEI 4026643).",
-    "uf": "DF",
-    "qdtEmpregosGerados": null,
-    "descPopulacaoBeneficiada": null,
-    "populacaoBeneficiada": null,
-    "observacoesPertinentes": null,
-    "isModeladaPorBim": null,
-    "dataSituacao": "2021-10-05",
-    "tomadores": [],
-    "executores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "repassadores": [
-      {
-        "nome": "FUNDACAO UNIVERSIDADE DE BRASILIA",
-        "codigo": 26271
-      }
-    ],
-    "eixos": [
-      {
-        "id": 1,
-        "descricao": "Administrativo"
-      }
-    ],
-    "tipos": [
-      {
-        "id": 6,
-        "descricao": "Assistência Social",
-        "idEixo": 1
-      }
-    ],
-    "subTipos": [
-      {
-        "id": 59,
-        "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
-      }
-    ],
-    "fontesDeRecurso": [
-      {
-        "origem": "Federal",
-        "valorInvestimentoPrevisto": 0
-      }
-    ],
-    "latitude": -15.760730006455,
-    "longitude": -47.86746
-  },
-  {
-    "idUnico": "6424.53-90",
-    "nome": "Contratação de empresa especializada para obra de ampliação do hotel de trânsito de Subtenentes e Sargentos, em Brasília-DF",
-    "cep": "70.297-400",
-    "endereco": "Hotel de Trânsito de Subtenentes e Sragentos - Setor Militar Urbano - Brasília, DF",
-    "descricao": "Contratação de empresa especializada para obra de ampliação do hotel de trânsito de Subtenentes e Sargentos, em Brasília-DF",
-    "funcaoSocial": "A ampliação será realizada junto ao prédio existente do HTS e implicará na readequação da rede de infraestrutura. A referida ampliação do Hotel de Trânsito para Subtenentes e Sargentos – HTS, localizado em Brasília/DF, amplia em 11 suítes, mobiliadas, sendo uma adaptada para PCD (pessoa com  deficiência), pois este hotel tem uma demanda reprimida, haja vista a carência que possui o efetivo da Força que busca tratamentos médicos nesta cidade e não encontram hospedagem. É\nimportante ressaltar que a guarnição de Brasília é muito solicitada, devido à quantidade de especialidades médicas. Além disso, Brasília é um importante polo turístico, 4º maior do País, segundo a Embratur, recebendo diversos militares, principalmente aqueles que aqui já serviram e que são novamente atraídos para passar períodos de lazer na cidade. \n\nTendo o conhecimento de que, o Hotel de Trânsito cumpre o objetivo de proporcionar apoio às famílias militares tanto em trânsito quanto em férias, faz-se de grande importância a ampliação do HTS em Brasília, proporcionando um melhor apoio aos militares e seus dependentes quanto a hospedagem, seja ela recreativa, funcional ou para fins de tratamento de saúde. Atualmente o HTS conta apenas com 8 (oito) unidades, localizado no Setor Militar Urbano, Brasília DF.\n",
-    "metaGlobal": "Ampliação do Hotel de Trânsito de Subtenentes e Sargentos.",
-    "dataInicialPrevista": "2022-08-01",
+    "idUnico": "21341.53-30",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Gama",
+    "cep": "72.429-005",
+    "endereco": "Lote 01, DF 480, Setor de Múltiplas Atividades",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Gama que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Gama principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n",
+    "dataInicialPrevista": "2023-07-01",
     "dataFinalPrevista": "2023-12-31",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-07-25",
-    "especie": "Ampliação",
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
     "natureza": "Obra",
     "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.9934600067011,
+    "longitude": -48.05417
+  },
+  {
+    "idUnico": "21342.53-97",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Samambaia",
+    "cep": "72.304-300",
+    "endereco": "Rodovia DF-460 - Subcentro Leste, Complexo Boca da Mata, Lote 01, Samambaia/ DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Samambaia que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Samambaia principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.8628300065624,
+    "longitude": -48.05234
+  },
+  {
+    "idUnico": "21345.53-56",
+    "nome": "Substituição do sistema de impermeabilização nas edificações do Campus Taguatinga",
+    "cep": "72.146-000",
+    "endereco": "QNM 40, Área Especial 01, às margens da BR 070. Taguatinga/DF",
+    "descricao": "substituição de todo o sistema de impermeabilização dos blocos do campus Taguatinga que foram concebidos para terem telhado verde. A impermeabilização garante uma edificação segura, estanque e sem patologias decorrentes de entrada de águas em todos os tipos de estruturas.",
+    "funcaoSocial": "atender a comunidade acadêmica do Campus Taguatinga principalmente em conforto e qualidade de ensino, pesquisa e extensão",
+    "metaGlobal": "aumentar a oferta de cursos técnicos/tecnológicos e de curta duração, e para isso, necessita aumentar sua área para laboratórios e salas de aulas integradas a esses laboratórios.\n\n",
+    "dataInicialPrevista": "2023-07-01",
+    "dataFinalPrevista": "2023-12-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-04-14",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": "triplicar as matrículas da educação profissional técnica de nível médio, assegurando a qualidade da oferta e pelo menos 50% (cinquenta por cento) da expansão no segmento público\n\n",
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-04-14",
+    "tomadores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "executores": [
+      {
+        "nome": "INSTITUTO FED. ED. CIENCIA E TEC. DE BRASILIA",
+        "codigo": 26356
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA EDUCAÇÃO",
+        "codigo": 244
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 1000000
+      }
+    ],
+    "latitude": -15.7944600064904,
+    "longitude": -48.10274
+  },
+  {
+    "idUnico": "2729.53-94",
+    "nome": "Ampliação e Reforma do Hospital Naval de Brasília",
+    "cep": "1",
+    "endereco": "SEPS Q 711/911 - Asa Sul, Brasília - DF",
+    "descricao": "CONTRATAÇÃO INTEGRADA de empresa especializada em construção civil para realizar a prestação de serviços de REFORMA E AMPLIAÇÃO DO HOSPITAL NAVAL DE BRASÍLIA – HNBra, incluindo a elaboração de projetos básicos e executivos de arquitetura e engenharia, planos e programas ambientais visando a minimização dos impactos ambientais do novo hospital. O detalhamento encontra-se no RDC 01/2019 deste Hospital.",
+    "funcaoSocial": "Atendimento à Família Naval.",
+    "metaGlobal": "Expansão física das instalações e, com isso, passaremos a disponibilizar uma gama muito maior de consultas e procedimentos, inclusive aqueles com valor agregado muito alto, como no caso de internações (nos seus diversos níveis de complexidade).",
+    "dataInicialPrevista": "2020-01-20",
+    "dataFinalPrevista": "2023-03-31",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-06-22",
+    "especie": "Ampliação",
+    "natureza": "Obra",
+    "naturezaOutras": "",
     "situacao": "Concluída",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
@@ -563,8 +310,219 @@
     "descPopulacaoBeneficiada": null,
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
-    "isModeladaPorBim": true,
-    "dataSituacao": "2023-07-19",
+    "isModeladaPorBim": null,
+    "dataSituacao": "2023-03-31",
+    "tomadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "COMANDO DA MARINHA",
+        "codigo": 185
+      }
+    ],
+    "eixos": [
+      {
+        "id": 2,
+        "descricao": "Militar"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 18,
+        "descricao": "Saúde",
+        "idEixo": 2
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 47,
+        "descricao": "Instituições Hospitalares Federais",
+        "idTipo": 18
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 27792850.24
+      }
+    ],
+    "latitude": -15.8149936263553,
+    "longitude": -47.914852843385
+  },
+  {
+    "idUnico": "4539.53-84",
+    "nome": "202111-22-Ronald 1",
+    "cep": "70067-901",
+    "endereco": "2021122-Ronald - Endereço Completo",
+    "descricao": "2021122-Ronald - Descrição do Projeto",
+    "funcaoSocial": "2021122-Ronald - Descrição Funç]ap Social",
+    "metaGlobal": "20211122-Ronald - Descrição Meta Global",
+    "dataInicialPrevista": "2021-12-10",
+    "dataFinalPrevista": "2021-12-10",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2021-11-17",
+    "especie": "Reforma",
+    "natureza": "Projeto de Investimento em Infraestrutura",
+    "naturezaOutras": "outros",
+    "situacao": "Cadastrada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2021-11-17",
+    "tomadores": [
+      {
+        "nome": "FUND.UNIVERSIDADE FEDERAL VALE SAO FRANCISCO",
+        "codigo": 26230
+      }
+    ],
+    "executores": [
+      {
+        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+        "codigo": 308799
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+        "codigo": 308799
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 45,
+        "descricao": "Desenvolvimento",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 38,
+        "descricao": "Saneamento",
+        "idTipo": 45
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 100000000
+      }
+    ],
+    "latitude": -15.814476668284687,
+    "longitude": -47.819404296871
+  },
+  {
+    "idUnico": "42724.53-27",
+    "nome": "Escola Classe Crixá São Sebastião",
+    "cep": null,
+    "endereco": null,
+    "descricao": "Construção de Escola em Tempo Integral, Escola Classe Crixá Bairro: São Sebastião/Brasília -DF – Projeto Próprio.",
+    "funcaoSocial": "A construção da nova escola beneficiará 977 estudantes, do 1º ao 5º ano do Ensino Fundamental, em turno integral, na região administrativa de São Sebastião, Brasília-DF.. Atualmente, não há unidades de ensino suficientes para atender, novo bairro criado em São Sebastião pelos programas habitacionais do governo, como o Morar Bem e o Minha Casa, Minha Vida. Crianças em idade escolar que precisam ser transportadas para outras regiões para estudar. A expansão da rede é essencial para garantir o acesso e a permanência dos estudantes na Rede Pública, reiterando o compromisso do DF com uma educação de qualidade. Fonte de dado: Sistema Interno da SEEDF (Argis).. Espera-se atender aos programas Escola em Tempo Integral - Lei nº 14.640/2023 e Compromisso Nacional Criança Alfabetizada – Decreto nº 11.556/2023, reduzindo a vulnerabilidade social e alcançando as metas estabelecidas no Plano Nacional de Educação (PNE) e no Plano Distrital de Educação (PDE) pelo Distrito Federal.",
+    "metaGlobal": "Construção de Escola em Tempo Integral, Escola Classe Crixá Bairro: São Sebastião/Brasília -DF – Projeto Próprio.",
+    "dataInicialPrevista": "2024-09-02",
+    "dataFinalPrevista": "2028-09-02",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2024-08-30",
+    "especie": "Construção",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Cancelada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": "30",
+    "descPopulacaoBeneficiada": "A população diretamente beneficiada pela EC Crixá, com capacidade para 385 alunos/turno, são crianças e jovens em idade escolar da comunidade local. A escola, com funcionamento em diferentes turnos, amplia o acesso à educação. Indiretamente, toda a comunidade se beneficia, com valorização da região, atração de novos moradores, geração de empregos e desenvolvimento local. ",
+    "populacaoBeneficiada": "385",
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2026-01-23",
+    "tomadores": [],
+    "executores": [
+      {
+        "nome": "SECRETARIA DE ESTADO DE EDUCACAO DO DISTRITO FEDERAL",
+        "codigo": 394676000107
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "FUNDO NACIONAL DE DESENVOLVIMENTO DA EDUCAÇÃO",
+        "codigo": 253
+      }
+    ],
+    "eixos": [
+      {
+        "id": 4,
+        "descricao": "Social"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 46,
+        "descricao": "Educação",
+        "idEixo": 4
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 84,
+        "descricao": "Educação",
+        "idTipo": 46
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 12319519.51
+      }
+    ],
+    "latitude": -15.90288,
+    "longitude": -47.77609
+  },
+  {
+    "idUnico": "20285.53-58",
+    "nome": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "cep": "70.790-020",
+    "endereco": "902/904 - Asa Norte, Brasília - DF",
+    "descricao": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "funcaoSocial": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "metaGlobal": "Substituição parcial dos brises do Colégio Militar de Brasília em Brasília-DF",
+    "dataInicialPrevista": "2023-03-02",
+    "dataFinalPrevista": "2024-03-01",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2023-03-01",
+    "especie": "Recuperação",
+    "natureza": "Obra",
+    "naturezaOutras": null,
+    "situacao": "Inativada",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": false,
+    "dataSituacao": "2023-03-01",
     "tomadores": [
       {
         "nome": "COMANDO DO EXÉRCITO",
@@ -585,78 +543,50 @@
     ],
     "eixos": [
       {
-        "id": 3,
-        "descricao": "Econômico"
-      },
-      {
-        "id": 3,
-        "descricao": "Econômico"
-      },
-      {
-        "id": 3,
-        "descricao": "Econômico"
+        "id": 1,
+        "descricao": "Administrativo"
       }
     ],
     "tipos": [
       {
-        "id": 30,
-        "descricao": "Desenvolvimento",
-        "idEixo": 3
-      },
-      {
-        "id": 30,
-        "descricao": "Desenvolvimento",
-        "idEixo": 3
-      },
-      {
-        "id": 30,
-        "descricao": "Desenvolvimento",
-        "idEixo": 3
+        "id": 5,
+        "descricao": "Administrativo",
+        "idEixo": 1
       }
     ],
     "subTipos": [
       {
-        "id": 66,
-        "descricao": "Refino - Modernização e Ampliação",
-        "idTipo": 30
-      },
-      {
-        "id": 75,
-        "descricao": "Urbanização",
-        "idTipo": 30
-      },
-      {
-        "id": 45,
-        "descricao": "Turismo",
-        "idTipo": 30
+        "id": 59,
+        "descricao": "Obras em Imóveis de Uso Público",
+        "idTipo": 5
       }
     ],
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 2376298.36
+        "valorInvestimentoPrevisto": 769000
       }
     ],
-    "latitude": -15.7704300064652,
-    "longitude": -47.93219
+    "latitude": -15.7811300064764,
+    "longitude": -47.89285
   },
   {
-    "idUnico": "6227.53-14",
-    "nome": "Complementação, Reparação e Adequação da Construção da 16ª Delegacia de Polícia",
-    "cep": "73.330-088",
-    "endereco": "Área Especial, qd. 02, bl. K, Setor Central - Planaltina-DF.",
-    "descricao": "Complementação, reparação e adequação da construção da 16ª Delegada de Polícia Civil do Distrito Federal,",
-    "funcaoSocial": "Garantir segurança a pública de qualidade a toda a população.",
-    "metaGlobal": "Conclusão da ampliação da 16ª Delegacia de Polícia.",
-    "dataInicialPrevista": "2022-06-20",
-    "dataFinalPrevista": "2022-12-31",
+    "idUnico": "44078.53-10",
+    "nome": "CPAC - Elaboração de projetos  para as instalações de recepção e preparação de amostras",
+    "cep": "73.310-970",
+    "endereco": "BR 020, Km 18, Rod. Brasília/Fortaleza, Zona Rural, Planaltina - DF",
+    "descricao": "Elaboração de projetos básicos e executivos de engenharia e arquitetura para a reforma e construção das instalações de recepção e preparação de amostras na Embrapa Cerrados",
+    "funcaoSocial": "Viabilizar soluções de pesquisa, desenvolvimento e inovação para a sustentabilidade da agricultura, em benefício da sociedade brasileira.",
+    "metaGlobal": "Elaboração de projetos básicos e executivos de engenharia e arquitetura para a reforma e construção das instalações de recepção e preparação de amostras na Embrapa Cerrados",
+    "dataInicialPrevista": "2024-11-01",
+    "dataFinalPrevista": "2025-05-26",
     "dataInicialEfetiva": null,
     "dataFinalEfetiva": null,
-    "dataCadastro": "2022-06-20",
-    "especie": "Ampliação",
+    "dataCadastro": "2024-10-21",
+    "especie": "Reforma",
     "natureza": "Projeto",
     "naturezaOutras": null,
-    "situacao": "Cadastrada",
+    "situacao": "Concluída",
     "descPlanoNacionalPoliticaVinculado": null,
     "uf": "DF",
     "qdtEmpregosGerados": null,
@@ -664,23 +594,23 @@
     "populacaoBeneficiada": null,
     "observacoesPertinentes": null,
     "isModeladaPorBim": false,
-    "dataSituacao": "2022-06-20",
+    "dataSituacao": "2025-06-20",
     "tomadores": [
       {
-        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
-        "codigo": 37115482000135
+        "nome": "EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA",
+        "codigo": 25
       }
     ],
     "executores": [
       {
-        "nome": "POLICIA CIVIL DO DISTRITO FEDERAL",
-        "codigo": 37115482000135
+        "nome": "EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA",
+        "codigo": 25
       }
     ],
     "repassadores": [
       {
-        "nome": "FUNDO CONSTITUCIONAL DO DISTRITO FEDERAL",
-        "codigo": 25915
+        "nome": "MINISTERIO DA AGRICULTURA, PECUARIA E ABASTECIMENTO",
+        "codigo": 16701716003686
       }
     ],
     "eixos": [
@@ -691,8 +621,80 @@
     ],
     "tipos": [
       {
+        "id": 5,
+        "descricao": "Administrativo",
+        "idEixo": 1
+      }
+    ],
+    "subTipos": [
+      {
+        "id": 90,
+        "descricao": "Preservação do Patrimônio",
+        "idTipo": 5
+      }
+    ],
+    "fontesDeRecurso": [
+      {
+        "origem": "Federal",
+        "valorInvestimentoPrevisto": 49973.53
+      }
+    ],
+    "latitude": -15.6020520990034,
+    "longitude": -47.7168332520646
+  },
+  {
+    "idUnico": "5584.53-19",
+    "nome": "Adequação da DCEM, 3º piso, Bloco D, QGEx do Setor Militar Urbano, na cidade de Brasília/DF",
+    "cep": "",
+    "endereco": "",
+    "descricao": "Adequação da DCEM, 3º piso, Bloco D, QGEx do Setor Militar Urbano, na cidade de Brasília/DF",
+    "funcaoSocial": "A necessidade de adequação do pavimento ocupado pela DCEM justifica-se pelas\ninstalações físicas serem antigas, desatualizadas, resultado de reformas pontuais,\nexecutadas na Diretoria ao longo dos anos, e que por falta de uniformidade podem vir\na comprometer a segurança, a economia, e a integral utilização da edificação.\nNesse contexto, esse estudo visa atender à necessidade de atualização das\ninstalações sanitárias elétricas, de incêndio, de condicionamento de ar, dentre outras\ndisciplinas, bem como de adequar o espaço da Diretoria ao pleno funcionamento das\nseções que a compõe e seu crescente número de servidores, dentre civis e militares\ndo DCEM, 3º Piso, Bloco D, QGex do Setor Militar Urbano, na cidade de Brasília/DF.",
+    "metaGlobal": "Adequação da DCEM, 3º piso, Bloco D, QGEx do Setor Militar Urbano, na cidade de Brasília/DF",
+    "dataInicialPrevista": "2022-02-14",
+    "dataFinalPrevista": "2023-11-06",
+    "dataInicialEfetiva": null,
+    "dataFinalEfetiva": null,
+    "dataCadastro": "2022-02-01",
+    "especie": "Construção",
+    "natureza": "Obra",
+    "naturezaOutras": "",
+    "situacao": "Concluída",
+    "descPlanoNacionalPoliticaVinculado": null,
+    "uf": "DF",
+    "qdtEmpregosGerados": null,
+    "descPopulacaoBeneficiada": null,
+    "populacaoBeneficiada": null,
+    "observacoesPertinentes": null,
+    "isModeladaPorBim": null,
+    "dataSituacao": "2023-11-06",
+    "tomadores": [
+      {
+        "nome": "COMANDO DO EXÉRCITO",
+        "codigo": 94
+      }
+    ],
+    "executores": [
+      {
+        "nome": "COMANDO DO EXÉRCITO",
+        "codigo": 94
+      }
+    ],
+    "repassadores": [
+      {
+        "nome": "MINISTÉRIO DA DEFESA",
+        "codigo": 41066
+      }
+    ],
+    "eixos": [
+      {
         "id": 1,
-        "descricao": "Segurança Pública",
+        "descricao": "Administrativo"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 5,
+        "descricao": "Administrativo",
         "idEixo": 1
       }
     ],
@@ -700,16 +702,16 @@
       {
         "id": 59,
         "descricao": "Obras em Imóveis de Uso Público",
-        "idTipo": 1
+        "idTipo": 5
       }
     ],
     "fontesDeRecurso": [
       {
         "origem": "Federal",
-        "valorInvestimentoPrevisto": 65624.2
+        "valorInvestimentoPrevisto": 8691308
       }
     ],
-    "latitude": -15.6236841521168,
-    "longitude": -47.6546849758603
+    "latitude": -15.7727900064677,
+    "longitude": -47.91729
   }
 ]
